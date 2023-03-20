@@ -1,0 +1,152 @@
+@media screen and (min-width:0) and (max-width: 300px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+}
+
+@media screen and (min-width:300px) and (max-width: 500px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+}
+
+@media screen and (min-width:501px) and (max-width: 700px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+}
+
+@media screen and (min-width:701px) and (max-width: 900px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    header {
+        background-color: blue;
+        height: 50px;
+        margin: auto auto auto auto;
+    }
+
+    #header-nav {
+        display: flex;
+
+    }
+
+    #search-form {
+        display: flex;
+        flex: wrap;
+        margin: auto auto auto auto;
+        height: 20px;
+
+    }
+
+    #Search {
+        width: 240px;
+        padding: 10px 10px 10px 10px;
+        border-radius: 20px;
+    }
+
+    #submit-btn {
+        position: relative;
+        right: -10px;
+    }
+
+    /*Navcontent*/
+    .content-navigation {
+        font-size: 20pt;
+        text-decoration: underline;
+        border: none;
+
+    }
+}
+
+@media screen and (min-width:901px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    header {
+        background-color: blue;
+        height: 50px;
+        margin: auto auto auto auto;
+    }
+
+    #header-nav {
+        display: flex;
+        color: white;
+    }
+
+    #h1 {
+        margin: 10px 10px 10px 10px;
+    }
+
+    #search-form {
+        display: flex;
+        flex: wrap;
+        margin: auto auto auto auto;
+        height: 20px;
+
+    }
+
+    #Search {
+        width: 250px;
+        padding: 0px 10px 0px 10px;
+        border-radius: 20px;
+    }
+
+    #submit-btn {
+        position: relative;
+        right: -10px;
+        padding: 0px 10px 10px 10px;
+        border-radius: 20px;
+    }
+
+    /*Navcontent*/
+    #wrap-nav-content {
+        background-color: black;
+        color: white;
+        padding: 10px 0px 10px 0px
+    }
+
+    nav h2 {
+        margin-left: 10px;
+    }
+
+    #list {
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .content-navigation {
+        width: 170px;
+        font-size: 20pt;
+        margin: 10px 0px 10px 55px;
+    }
+
+    .content-navigation a {
+        color: white;
+        text-decoration: none;
+    }
+
+    .content-navigation a:hover {
+        color: blue;
+    }
+
+    footer {
+        text-align: center;
+        background-color: blue;
+        color: white;
+        padding: 10px 0px 10px 0px;
+    }
+
+    footer p {
+        font-weight: 600;
+
+    }
+}
