@@ -3,6 +3,225 @@
         margin: 0;
         padding: 0;
     }
+
+    /*Header section start*/
+
+    header {
+        position: relative;
+        background-color: blue;
+        height: auto;
+        margin: auto auto auto auto;
+        width: 100%;
+    }
+
+    #header-nav {
+        display: block;
+        margin: auto auto auto auto;
+        color: white;
+    }
+
+    #h1 {
+        text-align: center;
+        margin: auto auto auto auto;
+    }
+
+    #search-form {
+        display: flex;
+        flex: wrap;
+        margin: auto auto auto auto;
+        height: 40px;
+        width: inherit;
+
+    }
+
+    #Search {
+        width: auto;
+        margin: auto auto auto auto;
+        padding: 5px 10px 5px 10px;
+        border-radius: 20px;
+    }
+
+    #Search:focus {
+        position: relative;
+        width: 200px;
+        z-index: 2;
+        color: blue;
+        background-color: aliceblue;
+    }
+
+
+    #submit-btn {
+        position: relative;
+        right: 0px;
+        width: 80px;
+        height: auto;
+        margin: auto auto auto auto;
+        border-radius: 20px;
+        padding: 5px 10px 5px 10px;
+    }
+
+
+    #select-colors {
+        display: none;
+        /*block*/
+        position: relative;
+        height: 30px;
+        width: 120px;
+        text-align: center;
+        margin: auto
+            /*30px*/
+            auto auto auto;
+    }
+
+    /*Navcontent start*/
+    #wrap-nav-content {
+        background-color: black;
+        color: white;
+        margin: 0;
+    }
+
+    nav #h1 {
+        font-size: 20pt;
+        margin: 0px 0px 10px 0px;
+    }
+
+    #list {
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #list li {
+        width: 250px;
+    }
+
+    .content-navigation {
+        width: 100%;
+        font-size: 20pt;
+        margin: 10px 0px 10px 55px;
+    }
+
+    .content-navigation a {
+        color: white;
+        text-decoration: none;
+    }
+
+    /*Navcontent end*/
+
+    /*main content start*/
+
+    .h2 {
+        display: block;
+        text-align: center;
+        margin: 10px 0px 10px 0px;
+        font-size: 20pt;
+        font-style: oblique;
+    }
+
+    #cake-contents {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        background-color: #000;
+        margin: auto auto auto auto;
+    }
+
+    img {
+        /*display: none;*/
+    }
+
+    .cake-section {
+        width: 250px;
+        text-align: center;
+        font-size: 16pt;
+        border-radius: 10px;
+        border-style: groove;
+        border-top-color: aquamarine;
+        border-bottom-color: aquamarine;
+        border-left-color: aquamarine;
+        border-right-color: aquamarine;
+        margin: 10px 10px 10px 10px;
+    }
+
+    .cake-section>div {
+        background-color: darkgrey;
+        color: #fff;
+        border-radius: 10px;
+        padding-bottom: 10px;
+    }
+
+    figure {
+        position: relative;
+        height: inherit;
+        width: inherit;
+        margin: 0px 20px 0px 20px;
+        padding: 20px 0px 0px 0px;
+
+        overflow: hidden;
+    }
+
+    figcaption {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-weight: 600;
+    }
+
+    .cake_images {
+        position: relative;
+        height: 180px;
+        width: 180px;
+        border-radius: 10px;
+    }
+
+    h3 {
+        text-decoration: underline;
+        width: auto;
+        margin: auto auto auto auto;
+    }
+
+    .btn-buy-cake-recipes-open {
+        position: relative;
+        padding: 10px 10px 10px 10px;
+        background-color: aquamarine;
+        border-radius: 10px;
+        border: 1px solid aquamarine;
+    }
+
+    .btn-buy-cake-recipes-close {
+        display: none;
+        padding: 10px 10px 10px 10px;
+        background-color: magenta;
+        border-radius: 10px;
+        border: 1px solid aquamarine;
+    }
+
+    .cake-section div>p {
+        display: none;
+    }
+
+    /*main content end*/
+
+    /*Header section end*/
+
+    /*footer section start*/
+    footer {
+        text-align: center;
+        background-color: blue;
+        color: white;
+        width: 100%;
+        padding: 10px 0px 10px 0px;
+    }
+
+    footer p {
+        font-weight: 600;
+        width: 220px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin: auto auto auto auto;
+    }
+
+    /*footer section end*/
 }
 
 @media screen and (min-width:300px) and (max-width: 500px) {
@@ -10,65 +229,8 @@
         margin: 0;
         padding: 0;
     }
-}
 
-@media screen and (min-width:501px) and (max-width: 700px) {
-    * {
-        margin: 0;
-        padding: 0;
-    }
-}
-
-@media screen and (min-width:701px) and (max-width: 900px) {
-    * {
-        margin: 0;
-        padding: 0;
-    }
-
-    header {
-        background-color: blue;
-        height: 50px;
-        margin: auto auto auto auto;
-    }
-
-    #header-nav {
-        display: flex;
-
-    }
-
-    #search-form {
-        display: flex;
-        flex: wrap;
-        margin: auto auto auto auto;
-        height: 20px;
-
-    }
-
-    #Search {
-        width: 240px;
-        padding: 10px 10px 10px 10px;
-        border-radius: 20px;
-    }
-
-    #submit-btn {
-        position: relative;
-        right: -10px;
-    }
-
-    /*Navcontent*/
-    .content-navigation {
-        font-size: 20pt;
-        text-decoration: underline;
-        border: none;
-
-    }
-}
-
-@media screen and (min-width:901px) {
-    * {
-        margin: 0;
-        padding: 0;
-    }
+    /*Header section start*/
 
     header {
         background-color: blue;
@@ -88,25 +250,50 @@
     #search-form {
         display: flex;
         flex: wrap;
-        margin: auto auto auto auto;
+        margin: auto 200px auto auto;
         height: 20px;
 
     }
 
     #Search {
-        width: 250px;
-        padding: 0px 10px 0px 10px;
+        width: 260px;
+        margin: -4px auto auto auto;
+
+        padding: 5px 10px 5px 10px;
         border-radius: 20px;
     }
+
+    #Search:focus {
+        color: blue;
+        background-color: aliceblue;
+    }
+
 
     #submit-btn {
         position: relative;
         right: -10px;
-        padding: 0px 10px 10px 10px;
+        width: 80px;
+        height: auto;
+        margin: -4px -10px auto auto;
+
         border-radius: 20px;
+        padding: 5px 10px 5px 10px;
+
+
     }
 
-    /*Navcontent*/
+
+    #select-colors {
+        display: none;
+        /*block*/
+        position: relative;
+        height: 30px;
+        width: 120px;
+        text-align: center;
+        margin: auto 30px auto auto;
+    }
+
+    /*Navcontent start*/
     #wrap-nav-content {
         background-color: black;
         color: white;
@@ -114,13 +301,19 @@
     }
 
     nav h2 {
-        margin-left: 10px;
+        margin-left: 30px;
+        font-size: 20pt;
     }
 
     #list {
         position: relative;
         display: flex;
         flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #list li {
+        width: 250px;
     }
 
     .content-navigation {
@@ -138,6 +331,122 @@
         color: blue;
     }
 
+    /*Navcontent end*/
+
+    /*main content start*/
+
+    #h2 {
+        display: block;
+        text-align: center;
+        margin: 10px auto 10px auto;
+        font-size: 2rem;
+        font-style: oblique;
+    }
+
+    #cake-contents {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        background-color: #000;
+    }
+
+    img {
+        /*display: none;*/
+    }
+
+    .cake-section {
+        width: 700px;
+        text-align: center;
+        font-size: 16pt;
+        border-radius: 10px;
+        border-style: groove;
+        border-top-color: aquamarine;
+        border-bottom-color: aquamarine;
+        border-left-color: aquamarine;
+        border-right-color: aquamarine;
+        margin: 10px 10px 10px 10px;
+
+
+    }
+
+    .cake-section>div {
+        background-color: darkgrey;
+        color: #fff;
+        border-radius: 10px;
+        padding-bottom: 10px;
+    }
+
+    figure {
+        position: relative;
+        height: inherit;
+        width: inherit;
+        margin: 0px 20px 0px 20px;
+        padding: 20px 0px 0px 0px;
+
+        overflow: hidden;
+    }
+
+    figcaption {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-weight: 600;
+    }
+
+    .cake_images {
+        position: relative;
+        height: 520px;
+        width: 520px;
+        border-radius: 10px;
+    }
+
+    h3 {
+        text-decoration: underline;
+        width: auto;
+        margin: auto auto auto auto;
+    }
+
+    .btn-buy-cake-recipes-open {
+        position: relative;
+        padding: 10px 10px 10px 10px;
+        background-color: aquamarine;
+        border-radius: 10px;
+        border: 1px solid aquamarine;
+    }
+
+    .btn-buy-cake-recipes-open:hover {
+        position: relative;
+        padding: 10px 10px 10px 10px;
+        background-color: aquamarine;
+        border-radius: 10px;
+        border: 1px solid magenta;
+        box-shadow: 0px 0px 15px 5.5px magenta;
+    }
+
+    .btn-buy-cake-recipes-close {
+        display: none;
+        padding: 10px 10px 10px 10px;
+        background-color: aquamarine;
+        border-radius: 10px;
+        border: 1px solid aquamarine;
+    }
+
+    .btn-buy-cake-recipes-close:hover {
+        padding: 10px 10px 10px 10px;
+        background-color: aquamarine;
+        border-radius: 10px;
+        border: 1px solid magenta;
+        box-shadow: 0px 0px 15px 5.5px magenta;
+    }
+
+    .cake-section div>p {
+        display: none;
+    }
+
+    /*main content end*/
+
+    /*Header section end*/
+
+    /*footer section start*/
     footer {
         text-align: center;
         background-color: blue;
@@ -149,4 +458,716 @@
         font-weight: 600;
 
     }
+
+    /*footer section end*/
+}
+
+@media screen and (min-width:501px) and (max-width: 700px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    /*Header section start*/
+
+    header {
+        background-color: blue;
+        height: 50px;
+        margin: auto auto auto auto;
+    }
+
+    #header-nav {
+        display: flex;
+        color: white;
+    }
+
+    #h1 {
+        margin: 10px 10px 10px 10px;
+    }
+
+    #search-form {
+        display: flex;
+        flex: wrap;
+        margin: auto 200px auto auto;
+        height: 20px;
+
+    }
+
+    #Search {
+        width: 260px;
+        margin: -4px auto auto auto;
+
+        padding: 5px 10px 5px 10px;
+        border-radius: 20px;
+    }
+
+    #Search:focus {
+        color: blue;
+        background-color: aliceblue;
+    }
+
+
+    #submit-btn {
+        position: relative;
+        right: -10px;
+        width: 80px;
+        height: auto;
+        margin: -4px -10px auto auto;
+
+        border-radius: 20px;
+        padding: 5px 10px 5px 10px;
+
+
+    }
+
+
+    #select-colors {
+        display: none;
+        /*block*/
+        position: relative;
+        height: 30px;
+        width: 120px;
+        text-align: center;
+        margin: auto 30px auto auto;
+    }
+
+    /*Navcontent start*/
+    #wrap-nav-content {
+        background-color: black;
+        color: white;
+        padding: 10px 0px 10px 0px
+    }
+
+    nav h2 {
+        margin-left: 30px;
+        font-size: 20pt;
+    }
+
+    #list {
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #list li {
+        width: 250px;
+    }
+
+    .content-navigation {
+        width: 170px;
+        font-size: 20pt;
+        margin: 10px 0px 10px 55px;
+    }
+
+    .content-navigation a {
+        color: white;
+        text-decoration: none;
+    }
+
+    .content-navigation a:hover {
+        color: blue;
+    }
+
+    /*Navcontent end*/
+
+    /*main content start*/
+
+    #h2 {
+        display: block;
+        text-align: center;
+        margin: 10px auto 10px auto;
+        font-size: 2rem;
+        font-style: oblique;
+    }
+
+    #cake-contents {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        background-color: #000;
+    }
+
+    img {
+        /*display: none;*/
+    }
+
+    .cake-section {
+        width: 700px;
+        text-align: center;
+        font-size: 16pt;
+        border-radius: 10px;
+        border-style: groove;
+        border-top-color: aquamarine;
+        border-bottom-color: aquamarine;
+        border-left-color: aquamarine;
+        border-right-color: aquamarine;
+        margin: 10px 10px 10px 10px;
+
+
+    }
+
+    .cake-section>div {
+        background-color: darkgrey;
+        color: #fff;
+        border-radius: 10px;
+        padding-bottom: 10px;
+    }
+
+    figure {
+        position: relative;
+        height: inherit;
+        width: inherit;
+        margin: 0px 20px 0px 20px;
+        padding: 20px 0px 0px 0px;
+
+        overflow: hidden;
+    }
+
+    figcaption {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-weight: 600;
+    }
+
+    .cake_images {
+        position: relative;
+        height: 520px;
+        width: 520px;
+        border-radius: 10px;
+    }
+
+    h3 {
+        text-decoration: underline;
+        width: auto;
+        margin: auto auto auto auto;
+    }
+
+    .btn-buy-cake-recipes-open {
+        position: relative;
+        padding: 10px 10px 10px 10px;
+        background-color: aquamarine;
+        border-radius: 10px;
+        border: 1px solid aquamarine;
+    }
+
+    .btn-buy-cake-recipes-open:hover {
+        position: relative;
+        padding: 10px 10px 10px 10px;
+        background-color: aquamarine;
+        border-radius: 10px;
+        border: 1px solid magenta;
+        box-shadow: 0px 0px 15px 5.5px magenta;
+    }
+
+    .btn-buy-cake-recipes-close {
+        display: none;
+        padding: 10px 10px 10px 10px;
+        background-color: aquamarine;
+        border-radius: 10px;
+        border: 1px solid aquamarine;
+    }
+
+    .btn-buy-cake-recipes-close:hover {
+        padding: 10px 10px 10px 10px;
+        background-color: aquamarine;
+        border-radius: 10px;
+        border: 1px solid magenta;
+        box-shadow: 0px 0px 15px 5.5px magenta;
+    }
+
+    .cake-section div>p {
+        display: none;
+    }
+
+    /*main content end*/
+
+    /*Header section end*/
+
+    /*footer section start*/
+    footer {
+        text-align: center;
+        background-color: blue;
+        color: white;
+        padding: 10px 0px 10px 0px;
+    }
+
+    footer p {
+        font-weight: 600;
+
+    }
+
+    /*footer section end*/
+}
+
+@media screen and (min-width:701px) and (max-width: 900px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    /*Header section start*/
+
+    header {
+        background-color: blue;
+        height: 50px;
+        margin: auto auto auto auto;
+    }
+
+    #header-nav {
+        display: flex;
+        color: white;
+    }
+
+    #h1 {
+        margin: 10px 10px 10px 10px;
+    }
+
+    #search-form {
+        display: flex;
+        flex: wrap;
+        margin: auto 200px auto auto;
+        height: 20px;
+
+    }
+
+    #Search {
+        width: 260px;
+        margin: -4px auto auto auto;
+
+        padding: 5px 10px 5px 10px;
+        border-radius: 20px;
+    }
+
+    #Search:focus {
+        color: blue;
+        background-color: aliceblue;
+    }
+
+
+    #submit-btn {
+        position: relative;
+        right: -10px;
+        width: 80px;
+        height: auto;
+        margin: -4px -10px auto auto;
+        border-radius: 20px;
+        padding: 5px 10px 5px 10px;
+    }
+
+    #select-colors {
+        display: none;
+        /*block*/
+        position: relative;
+        height: 30px;
+        width: 120px;
+        text-align: center;
+        margin: auto 30px auto auto;
+    }
+
+    /*Navcontent start*/
+    #wrap-nav-content {
+        background-color: black;
+        color: white;
+        padding: 10px 0px 10px 0px
+    }
+
+    nav h2 {
+        margin-left: 30px;
+        font-size: 20pt;
+    }
+
+    #list {
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #list li {
+        width: 250px;
+    }
+
+    .content-navigation {
+        width: 170px;
+        font-size: 20pt;
+        margin: 10px 0px 10px 55px;
+    }
+
+    .content-navigation a {
+        color: white;
+        text-decoration: none;
+    }
+
+    .content-navigation a:hover {
+        color: blue;
+    }
+
+    /*Navcontent end*/
+
+    /*main content start*/
+
+    #h2 {
+        display: block;
+        text-align: center;
+        margin: 10px auto 10px auto;
+        font-size: 2rem;
+        font-style: oblique;
+    }
+
+    #cake-contents {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        background-color: #000;
+    }
+
+    img {
+        /*display: none;*/
+    }
+
+    .cake-section {
+        width: 700px;
+        text-align: center;
+        font-size: 16pt;
+        border-radius: 10px;
+        border-style: groove;
+        border-top-color: aquamarine;
+        border-bottom-color: aquamarine;
+        border-left-color: aquamarine;
+        border-right-color: aquamarine;
+        margin: 10px 10px 10px 10px;
+
+
+    }
+
+    .cake-section>div {
+        background-color: darkgrey;
+        color: #fff;
+        border-radius: 10px;
+        padding-bottom: 10px;
+    }
+
+    figure {
+        position: relative;
+        height: inherit;
+        width: inherit;
+        margin: 0px 20px 0px 20px;
+        padding: 20px 0px 0px 0px;
+
+        overflow: hidden;
+    }
+
+    figcaption {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-weight: 600;
+    }
+
+    .cake_images {
+        position: relative;
+        height: 520px;
+        width: 520px;
+        border-radius: 10px;
+    }
+
+    h3 {
+        text-decoration: underline;
+        width: auto;
+        margin: auto auto auto auto;
+    }
+
+    .btn-buy-cake-recipes-open {
+        position: relative;
+        padding: 10px 10px 10px 10px;
+        background-color: aquamarine;
+        border-radius: 10px;
+        border: 1px solid aquamarine;
+    }
+
+    .btn-buy-cake-recipes-open:hover {
+        position: relative;
+        padding: 10px 10px 10px 10px;
+        background-color: aquamarine;
+        border-radius: 10px;
+        border: 1px solid magenta;
+        box-shadow: 0px 0px 15px 5.5px magenta;
+    }
+
+    .btn-buy-cake-recipes-close {
+        display: none;
+        padding: 10px 10px 10px 10px;
+        background-color: aquamarine;
+        border-radius: 10px;
+        border: 1px solid aquamarine;
+    }
+
+    .btn-buy-cake-recipes-close:hover {
+        padding: 10px 10px 10px 10px;
+        background-color: aquamarine;
+        border-radius: 10px;
+        border: 1px solid magenta;
+        box-shadow: 0px 0px 15px 5.5px magenta;
+    }
+
+    .cake-section div>p {
+        display: none;
+    }
+
+    /*main content end*/
+
+    /*Header section end*/
+
+    /*footer section start*/
+    footer {
+        text-align: center;
+        background-color: blue;
+        color: white;
+        padding: 10px 0px 10px 0px;
+    }
+
+    footer p {
+        font-weight: 600;
+
+    }
+
+    /*footer section end*/
+}
+
+@media screen and (min-width:901px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    /*Header section start*/
+
+    header {
+        background-color: blue;
+        height: 50px;
+        margin: auto auto auto auto;
+    }
+
+    #header-nav {
+        display: flex;
+        color: white;
+    }
+
+    #h1 {
+        margin: 10px 10px 10px 10px;
+    }
+
+    #search-form {
+        display: flex;
+        flex: wrap;
+        margin: auto 200px auto auto;
+        height: 20px;
+
+    }
+
+    #Search {
+        width: 260px;
+        margin: -4px auto auto auto;
+
+        padding: 5px 10px 5px 10px;
+        border-radius: 20px;
+    }
+
+    #Search:focus {
+        color: blue;
+        background-color: aliceblue;
+    }
+
+
+    #submit-btn {
+        position: relative;
+        right: -10px;
+        width: 80px;
+        height: auto;
+        margin: -4px -10px auto auto;
+
+        border-radius: 20px;
+        padding: 5px 10px 5px 10px;
+
+
+    }
+
+
+    #select-colors {
+        display: none;
+        /*block*/
+        position: relative;
+        height: 30px;
+        width: 120px;
+        text-align: center;
+        margin: auto 30px auto auto;
+    }
+
+    /*Navcontent start*/
+    #wrap-nav-content {
+        background-color: black;
+        color: white;
+        padding: 10px 0px 10px 0px
+    }
+
+    nav h2 {
+        margin-left: 30px;
+        font-size: 20pt;
+    }
+
+    #list {
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #list li {
+        width: 250px;
+    }
+
+    .content-navigation {
+        width: 170px;
+        font-size: 20pt;
+        margin: 10px 0px 10px 55px;
+    }
+
+    .content-navigation a {
+        color: white;
+        text-decoration: none;
+    }
+
+    .content-navigation a:hover {
+        color: blue;
+    }
+
+    /*Navcontent end*/
+
+    /*main content start*/
+
+    #h2 {
+        display: block;
+        text-align: center;
+        margin: 10px auto 10px auto;
+        font-size: 2rem;
+        font-style: oblique;
+    }
+
+    #cake-contents {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        background-color: #000;
+    }
+
+    img {
+        /*display: none;*/
+    }
+
+    .cake-section {
+        width: 700px;
+        text-align: center;
+        font-size: 16pt;
+        border-radius: 10px;
+        border-style: groove;
+        border-top-color: aquamarine;
+        border-bottom-color: aquamarine;
+        border-left-color: aquamarine;
+        border-right-color: aquamarine;
+        margin: 10px 10px 10px 10px;
+
+
+    }
+
+    .cake-section>div {
+        background-color: darkgrey;
+        color: #fff;
+        border-radius: 10px;
+        padding-bottom: 10px;
+    }
+
+    figure {
+        position: relative;
+        height: inherit;
+        width: inherit;
+        margin: 0px 20px 0px 20px;
+        padding: 20px 0px 0px 0px;
+
+        overflow: hidden;
+    }
+
+    figcaption {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-weight: 600;
+    }
+
+    .cake_images {
+        position: relative;
+        height: 520px;
+        width: 520px;
+        border-radius: 10px;
+    }
+
+    h3 {
+        text-decoration: underline;
+        width: auto;
+        margin: auto auto auto auto;
+    }
+
+    .btn-buy-cake-recipes-open {
+        position: relative;
+        padding: 10px 10px 10px 10px;
+        background-color: aquamarine;
+        border-radius: 10px;
+        border: 1px solid aquamarine;
+    }
+
+    .btn-buy-cake-recipes-open:hover {
+        position: relative;
+        padding: 10px 10px 10px 10px;
+        background-color: aquamarine;
+        border-radius: 10px;
+        border: 1px solid magenta;
+        box-shadow: 0px 0px 15px 5.5px magenta;
+    }
+
+    .btn-buy-cake-recipes-close {
+        display: none;
+        padding: 10px 10px 10px 10px;
+        background-color: aquamarine;
+        border-radius: 10px;
+        border: 1px solid aquamarine;
+    }
+
+    .btn-buy-cake-recipes-close:hover {
+        padding: 10px 10px 10px 10px;
+        background-color: aquamarine;
+        border-radius: 10px;
+        border: 1px solid magenta;
+        box-shadow: 0px 0px 15px 5.5px magenta;
+    }
+
+    .cake-section div>p {
+        display: none;
+    }
+
+    /*main content end*/
+
+    /*Header section end*/
+
+    /*footer section start*/
+    footer {
+        text-align: center;
+        background-color: blue;
+        color: white;
+        padding: 10px 0px 10px 0px;
+    }
+
+    footer p {
+        font-weight: 600;
+
+    }
+
+    /*footer section end*/
 }
