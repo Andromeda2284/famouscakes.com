@@ -5,8 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta desc="Get the best cake recipes online in our store" content="FamousCake.com" />
-    <title>Best Recipes for Cakes</title>
+    <meta desc="Find the best cake recipes on this cake blog and make it be your ideal cake choice for every occation"
+        content="FamousCake.com" />
+    <title>Famouscakes.com | </title>
     <link rel="stylesheet" href="./Styling/index.css" />
     <link rel="icon" href="../Source/UI-designs/Famouscakes_logo.ico" />
     <!--
@@ -20,16 +21,20 @@
     <header id="header">
         <nav id="header-nav">
             <!--Hamburger bar is used for mobile users-->
-            <button style="display:none">&#9776;</button>
-            <h1 id="h1"><a href="javascript:void(0)" style="color: #fff; text-decoration: none;">Famous Cakes</a></h1>
+            <button style="display:none">&#9776;</button><!--display set to none-->
+            <h1 id="h1">
+                <a href="javascript:void(0)" style="color: #fff; text-decoration: none;">
+                    Famous cake recipies
+                </a>
+            </h1>
             <!--reserved for future development form start-->
             <form id="search-form" style="display :none;">
                 <input id="Search" autocomplete="off" type="search" placeholder="Search any cake recipe..."
                     maxlength="50" />
-
                 <input id="submit-btn" type="submit" value="Search" />
             </form>
             <!--reserved for future development form end-->
+            <!--Set a theme based on the selected mode clicked start-->
             <select id="select-colors">
                 <option id="standard" onclick="_default_mode()">Default</option>
                 <option id="light" onclick="_light_mode()">light</option>
@@ -37,11 +42,14 @@
                 <option id="girl_mode" onclick="_girl_mode()">Girl mode</option>
                 <option id="boy_mode" onclick="_boy_mode()">Boy mode</option>
             </select>
+            <!--Set a theme based on the selected mode clicked end-->
         </nav>
     </header>
     <div id="body-content">
+
         <h2 class="h2">16 Types of cake and their recipes all <span class="italic-style">Bakers</span> should know.</h2>
         <nav id="wrap-nav-content">
+            <!--Jump from a link selection to the cake your want to see start-->
             <h2 class="h2">Content:</h2>
             <ol id="list">
                 <li class="content-navigation">
@@ -93,8 +101,10 @@
                     <a href="#_16cheese_cake">Cheese Cake</a>
                 </li>
             </ol>
+            <!--Jump from a link selection to the cake your want to see end-->
         </nav>
         <div id="cake-contents">
+            <!--Section start-->
             <section class="cake-section">
                 <div id="_1yellow_cake">
                     <figure>
@@ -114,7 +124,7 @@
                     <div id="p-content1">
                         <h3 id="h3_1">Ingredients Required:</h3>
                         <ul id="ul1">
-                            <li id="liA1">stick (8 tablespoons) unsalted butter, at room temperature</li>
+                            <li id="liA1">1 stick (8 tablespoons) unsalted butter, at room temperature</li>
                             <li id="liA2">1/2 cup white sugar</li>
                             <li id="liA3">2 large eggs</li>
                             <li id="liA4">Zest of 1 lemon</li>
@@ -132,49 +142,51 @@
                             <li id="liA16">1 tablespoon heavy cream</li>
                             <li id="liA17">Directions:</li>
                         </ul>
-                        <ul>
-                            <li id="liA_SubA1">
-                                Preheat the oven to 350°F. Grease a 9-inch cake pan with nonstick
-                                spray.
-                            </li>
-                            <li id="liA_SubA2">
-                                In the bowl of an electric mixer fitted with the paddle attachment, cream the
-                                butter and
-                                sugar until light and fluffy, about 5 minutes.
-                            </li>
-                            <li id="liA_SubA3">
-                                Add the eggs one at a time, then beat in the lemon zest, mixing well to
-                                combine. Add the
-                                vanilla extract and mix to combine.
-                            </li>
-                            <li id="liA_SubA4">
-                                Add the cornmeal, baking powder, salt and 2⅓ cups all-purpose flour; mix to
-                                combine. Add the
-                                yogurt and mix to combine.
-                            </li>
-                            <li id="liA_SubA5">
-                                In a medium bowl, toss the blueberries with the lemon juice and the remaining 2
-                                tablespoons
-                                flour.
-                            </li>
-                            <li id="liA_SubA6">
-                                Pour the cake batter into the prepared pan and spread into an even layer.
-                                Scatter the
-                                blueberries in an even layer over the surface of the cake batter.
-                            </li>
-                            <li id="liA_SubA7">
-                                Bake until a tester inserted into the center of the cake comes out clean, 45 to
-                                55 minutes.
-                                Let cool for 15 minutes, then gently unmold from the cake pan and let cool
-                                completely on a wire
-                                rack.
-                            </li>
-                            <li id="liA_SubA8">
-                                MAKE THE ICING: In a medium bowl, whisk together the powdered sugar, lemon juice
-                                and cream.
-                                When the cake has cooled, drizzle the icing all over the cake before serving.
-                            </li>
-                        </ul>
+                        <div id="sublist1_directions">
+                            <ol>
+                                <li id="liA_SubA1">
+                                    Preheat the oven to 350°F. Grease a 9-inch cake pan with nonstick
+                                    spray.
+                                </li>
+                                <li id="liA_SubA2">
+                                    In the bowl of an electric mixer fitted with the paddle attachment, cream the
+                                    butter and
+                                    sugar until light and fluffy, about 5 minutes.
+                                </li>
+                                <li id="liA_SubA3">
+                                    Add the eggs one at a time, then beat in the lemon zest, mixing well to
+                                    combine. Add the
+                                    vanilla extract and mix to combine.
+                                </li>
+                                <li id="liA_SubA4">
+                                    Add the cornmeal, baking powder, salt and 2⅓ cups all-purpose flour; mix to
+                                    combine. Add the
+                                    yogurt and mix to combine.
+                                </li>
+                                <li id="liA_SubA5">
+                                    In a medium bowl, toss the blueberries with the lemon juice and the remaining 2
+                                    tablespoons
+                                    flour.
+                                </li>
+                                <li id="liA_SubA6">
+                                    Pour the cake batter into the prepared pan and spread into an even layer.
+                                    Scatter the
+                                    blueberries in an even layer over the surface of the cake batter.
+                                </li>
+                                <li id="liA_SubA7">
+                                    Bake until a tester inserted into the center of the cake comes out clean, 45 to
+                                    55 minutes.
+                                    Let cool for 15 minutes, then gently unmold from the cake pan and let cool
+                                    completely on a wire
+                                    rack.
+                                </li>
+                                <li id="liA_SubA8">
+                                    MAKE THE ICING: In a medium bowl, whisk together the powdered sugar, lemon juice
+                                    and cream.
+                                    When the cake has cooled, drizzle the icing all over the cake before serving.
+                                </li>
+                            </ol>
+                        </div>
                         <p class="p-content-recipe"></p>
                     </div>
                 </div>
@@ -196,17 +208,104 @@
                     <div id="p-content2">
                         <h3 id="h3_2">Ingredients Required:</h3>
                         <ul id="ul2">
-                            <li id="liB1">8 oz (227 g) unsalted butter room temp</li>
-                            <li id="liB2">14 oz (397 g) sugar</li>
-                            <li id="liB3">6 large (6 large) egg whites fresh not boxed at room temp</li>
-                            <li id="liB4">14 oz (397 g) AP flour</li>
-                            <li id="liB5">2 1/2 tsp (2 1/2 tsp) baking powder</li>
-                            <li id="liB6">1/2 tsp (1/2 tsp) salt</li>
-                            <li id="liB7">1 tsp (1 tsp) almond extract use clear for a whiter cake</li>
-                            <li id="liB8">1 tsp (1 tsp) vanilla extract</li>
-                            <li id="liB9">10 oz (284 g) milk room temp</li>
-                            <li id="liB10">2 oz (57 g) vegetable oil</li>
+                            <li id="liB1">
+                                1 cup (227g) unsalted butter, at room temperature
+                            </li>
+                            <li id="liB2">
+                                1 1/2 cups (298g) granulated sugar
+                            </li>
+                            <li id="liB3">
+                                1 1/2 cups (284g) buttermilk
+                            </li>
+                            <li id="liB4">
+                                6 large (213g) egg whites
+                            </li>
+                            <li id="liB5">
+                                1 1/2 teaspoons pure vanilla extract
+                            </li>
+                            <li id="liB6">
+                                1 teaspoon almond extract
+                            </li>
+                            <li id="liB7">
+                                2 1/4 cups (271g) all-purpose flour
+                            </li>
+                            <li id="liB8">
+                                1 tablespoon baking powder
+                            </li>
+                            <li id="liB9">
+                                1 teaspoon fine sea salt
+                            </li>
+                            <li id="liB10">
+                                FROSTING:
+                            </li>
+                            <li id="liB11">
+                                1 cup (227g) unsalted butter, at room temperature
+                            </li>
+                            <li id="liB12">
+                                4 cups (454g) powdered sugar
+                            </li>
+                            <li id="liB13">
+                                1 teaspoon pure vanilla extract
+                            </li>
+                            <li id="liB14">
+                                3/4 teaspoon almond extract
+                            </li>
+                            <li id="liB15">
+                                1/3 cup (81g) heavy cream
+                            </li>
+                            <li id="liB16">
+                                Sprinkles, as needed
+                            </li>
+                            <li id="liB17">
+                                Directions:
+                            </li>
                         </ul>
+                        <div id="sublist2_directions">
+                            <ol>
+                                <li id="liB_SubB1">
+                                    Preheat the oven to 350°F. Grease and flour two 9-inch cake pans.
+                                </li>
+                                <li id="liB_SubB2">
+                                    MAKE THE CAKE: In the bowl of an electric mixer fitted with the paddle attachment,
+                                    cream the butter and sugar together until light and fluffy, about 4 minutes.
+                                </li>
+                                <li id="liB_SubB3">
+                                    In a large liquid measuring cup, whisk the buttermilk, egg whites, vanilla, and
+                                    almond extracts to combine. In a medium bowl, whisk the flour, baking powder and
+                                    salt to combine.
+                                </li>
+                                <li id="liB_SubB4">
+                                    Add ⅓ of the flour mixture to the mixer and mix to combine. Add half of the
+                                    buttermilk mixture and mix to combine. Scrape the bowl well.
+                                </li>
+                                <li id="liB_SubB5">
+                                    Repeat this process, alternating dry and wet ingredients until all ingredients are
+                                    incorporated. Scrape the bowl well to ensure the batter is homogenous.
+                                </li>
+                                <li id="liB_SubB6">
+                                    Divide the batter evenly between the two prepared pans and smooth into an even
+                                    layer. Bake until a toothpick inserted into the center comes out clean, 25 to 30
+                                    minutes.
+                                </li>
+                                <li id="liB_SubB7">
+                                    Cool in the pan for 20 minutes, then invert onto a wire rack to cool completely. Use
+                                    a serrated knife to level off the surface of each cake to make a flat surface.
+                                </li>
+                                <li id="liB_SubB8">
+                                    MAKE THE FROSTING: In the bowl of an electric mixer, cream the butter and powdered
+                                    sugar until light and fluffy, about 4 minutes. Add the vanilla and almond extracts
+                                    and mix to combine.
+                                </li>
+                                <li id="liB_SubB9">
+                                    With the mixer running, add the cream in a slow, steady stream until well combined.
+                                </li>
+                                <li id="liB_SubB10">
+                                    Place one of the cake layers on a cake stand. Scoop about 1 cup of frosting onto the
+                                    cake and spread into an even layer. Top with the second cake layer. Frost the cake
+                                    all over, and garnish as desired with sprinkles.
+                                </li>
+                            </ol>
+                        </div>
                         <p class="p-content-recipe"></p>
 
                     </div>
@@ -492,13 +591,13 @@
                     </div>
                 </div>
             </section>
+            <!--Section end-->
         </div>
     </div>
     <footer>
         <p>This web application cake project was created by Lauren Fabian</p>
         <h4>All rights reserved &copy; 2023</h4>
     </footer>
-
 </body>
 
 </html>

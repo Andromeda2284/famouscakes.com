@@ -160,6 +160,83 @@
         font-weight: 600;
     }
 
+    /*recipe content start*/
+    .p-content-recipe,
+    #h3_1,
+    #h3_2,
+    #h3_3,
+    #h3_4,
+    #h3_5,
+    #h3_6,
+    #h3_7,
+    #h3_8,
+    #h3_9,
+    #h3_10,
+    #h3_11,
+    #h3_12,
+    #h3_13,
+    #h3_14,
+    #h3_15,
+    #h3_16,
+    #p-content1 ul li,
+    #p-content2 ul li,
+    #p-content3 ul li,
+    #p-content4 ul li,
+    #p-content5 ul li,
+    #p-content6 ul li,
+    #p-content7 ul li,
+    #p-content8 ul li,
+    #p-content9 ul li,
+    #p-content10 ul li,
+    #p-content11 ul li,
+    #p-content12 ul li,
+    #p-content13 ul li,
+    #p-content14 ul li,
+    #p-content15 ul li,
+    #p-content16 ul li,
+    #p-content1 ol li,
+    #p-content2 ol li,
+    #p-content3 ol li,
+    #p-content4 ol li,
+    #p-content5 ol li,
+    #p-content6 ol li,
+    #p-content7 ol li,
+    #p-content8 ol li,
+    #p-content9 ol li,
+    #p-content10 ol li,
+    #p-content11 ol li,
+    #p-content12 ol li,
+    #p-content13 ol li,
+    #p-content14 ol li,
+    #p-content15 ol li,
+    #p-content16 ol li {
+        display: none;
+    }
+
+    #sublist1_directions,
+    #sublist2_directions,
+    #sublist3_directions,
+    #sublist4_directions,
+    #sublist5_directions,
+    #sublist6_directions,
+    #sublist7_directions,
+    #sublist8_directions,
+    #sublist9_directions,
+    #sublist10_directions,
+    #sublist11_directions,
+    #sublist12_directions,
+    #sublist13_directions,
+    #sublist14_directions,
+    #sublist15_directions,
+    #sublist16_directions {
+        position: relative;
+        text-align: center;
+        margin: 30px auto 10px auto;
+        width: 100%;
+    }
+
+    /*recipe content end*/
+
     .cake_images {
         position: relative;
         height: 650px;
@@ -210,14 +287,7 @@
         display: none;
     }
 
-    #liA_SubA1,
-    #liA_SubA2,
-    #liA_SubA3,
-    #liA_SubA4,
-    #liA_SubA5,
-    #liA_SubA6,
-    #liA_SubA7,
-    #liA_SubA8 {}
+
 
     /*main content end*/
 
@@ -406,6 +476,83 @@
             padding-bottom: 10px;
             font-weight: 600;
         }
+
+        /*recipe content start*/
+        .p-content-recipe,
+        #h3_1,
+        #h3_2,
+        #h3_3,
+        #h3_4,
+        #h3_5,
+        #h3_6,
+        #h3_7,
+        #h3_8,
+        #h3_9,
+        #h3_10,
+        #h3_11,
+        #h3_12,
+        #h3_13,
+        #h3_14,
+        #h3_15,
+        #h3_16,
+        #p-content1 ul li,
+        #p-content2 ul li,
+        #p-content3 ul li,
+        #p-content4 ul li,
+        #p-content5 ul li,
+        #p-content6 ul li,
+        #p-content7 ul li,
+        #p-content8 ul li,
+        #p-content9 ul li,
+        #p-content10 ul li,
+        #p-content11 ul li,
+        #p-content12 ul li,
+        #p-content13 ul li,
+        #p-content14 ul li,
+        #p-content15 ul li,
+        #p-content16 ul li,
+        #p-content1 ol li,
+        #p-content2 ol li,
+        #p-content3 ol li,
+        #p-content4 ol li,
+        #p-content5 ol li,
+        #p-content6 ol li,
+        #p-content7 ol li,
+        #p-content8 ol li,
+        #p-content9 ol li,
+        #p-content10 ol li,
+        #p-content11 ol li,
+        #p-content12 ol li,
+        #p-content13 ol li,
+        #p-content14 ol li,
+        #p-content15 ol li,
+        #p-content16 ol li {
+            display: none;
+        }
+
+        #sublist1_directions,
+        #sublist2_directions,
+        #sublist3_directions,
+        #sublist4_directions,
+        #sublist5_directions,
+        #sublist6_directions,
+        #sublist7_directions,
+        #sublist8_directions,
+        #sublist9_directions,
+        #sublist10_directions,
+        #sublist11_directions,
+        #sublist12_directions,
+        #sublist13_directions,
+        #sublist14_directions,
+        #sublist15_directions,
+        #sublist16_directions {
+            position: relative;
+            text-align: center;
+            margin: 30px auto 10px auto;
+            width: 100%;
+        }
+
+        /*recipe content end*/
 
         .cake_images {
             position: relative;
@@ -633,6 +780,83 @@
             font-weight: 600;
         }
 
+        /*recipe content start*/
+        .p-content-recipe,
+        #h3_1,
+        #h3_2,
+        #h3_3,
+        #h3_4,
+        #h3_5,
+        #h3_6,
+        #h3_7,
+        #h3_8,
+        #h3_9,
+        #h3_10,
+        #h3_11,
+        #h3_12,
+        #h3_13,
+        #h3_14,
+        #h3_15,
+        #h3_16,
+        #p-content1 ul li,
+        #p-content2 ul li,
+        #p-content3 ul li,
+        #p-content4 ul li,
+        #p-content5 ul li,
+        #p-content6 ul li,
+        #p-content7 ul li,
+        #p-content8 ul li,
+        #p-content9 ul li,
+        #p-content10 ul li,
+        #p-content11 ul li,
+        #p-content12 ul li,
+        #p-content13 ul li,
+        #p-content14 ul li,
+        #p-content15 ul li,
+        #p-content16 ul li,
+        #p-content1 ol li,
+        #p-content2 ol li,
+        #p-content3 ol li,
+        #p-content4 ol li,
+        #p-content5 ol li,
+        #p-content6 ol li,
+        #p-content7 ol li,
+        #p-content8 ol li,
+        #p-content9 ol li,
+        #p-content10 ol li,
+        #p-content11 ol li,
+        #p-content12 ol li,
+        #p-content13 ol li,
+        #p-content14 ol li,
+        #p-content15 ol li,
+        #p-content16 ol li {
+            display: none;
+        }
+
+        #sublist1_directions,
+        #sublist2_directions,
+        #sublist3_directions,
+        #sublist4_directions,
+        #sublist5_directions,
+        #sublist6_directions,
+        #sublist7_directions,
+        #sublist8_directions,
+        #sublist9_directions,
+        #sublist10_directions,
+        #sublist11_directions,
+        #sublist12_directions,
+        #sublist13_directions,
+        #sublist14_directions,
+        #sublist15_directions,
+        #sublist16_directions {
+            position: relative;
+            text-align: center;
+            margin: 30px auto 10px auto;
+            width: 100%;
+        }
+
+        /*recipe content end*/
+
         .cake_images {
             position: relative;
             height: 180px;
@@ -852,6 +1076,83 @@
             padding-bottom: 10px;
             font-weight: 600;
         }
+
+        /*recipe content start*/
+        .p-content-recipe,
+        #h3_1,
+        #h3_2,
+        #h3_3,
+        #h3_4,
+        #h3_5,
+        #h3_6,
+        #h3_7,
+        #h3_8,
+        #h3_9,
+        #h3_10,
+        #h3_11,
+        #h3_12,
+        #h3_13,
+        #h3_14,
+        #h3_15,
+        #h3_16,
+        #p-content1 ul li,
+        #p-content2 ul li,
+        #p-content3 ul li,
+        #p-content4 ul li,
+        #p-content5 ul li,
+        #p-content6 ul li,
+        #p-content7 ul li,
+        #p-content8 ul li,
+        #p-content9 ul li,
+        #p-content10 ul li,
+        #p-content11 ul li,
+        #p-content12 ul li,
+        #p-content13 ul li,
+        #p-content14 ul li,
+        #p-content15 ul li,
+        #p-content16 ul li,
+        #p-content1 ol li,
+        #p-content2 ol li,
+        #p-content3 ol li,
+        #p-content4 ol li,
+        #p-content5 ol li,
+        #p-content6 ol li,
+        #p-content7 ol li,
+        #p-content8 ol li,
+        #p-content9 ol li,
+        #p-content10 ol li,
+        #p-content11 ol li,
+        #p-content12 ol li,
+        #p-content13 ol li,
+        #p-content14 ol li,
+        #p-content15 ol li,
+        #p-content16 ol li {
+            display: none;
+        }
+
+        #sublist1_directions,
+        #sublist2_directions,
+        #sublist3_directions,
+        #sublist4_directions,
+        #sublist5_directions,
+        #sublist6_directions,
+        #sublist7_directions,
+        #sublist8_directions,
+        #sublist9_directions,
+        #sublist10_directions,
+        #sublist11_directions,
+        #sublist12_directions,
+        #sublist13_directions,
+        #sublist14_directions,
+        #sublist15_directions,
+        #sublist16_directions {
+            position: relative;
+            text-align: center;
+            margin: 30px auto 10px auto;
+            width: 100%;
+        }
+
+        /*recipe content end*/
 
         .cake_images {
             position: relative;
@@ -1076,6 +1377,83 @@
             font-weight: 600;
         }
 
+        /*recipe content start*/
+        .p-content-recipe,
+        #h3_1,
+        #h3_2,
+        #h3_3,
+        #h3_4,
+        #h3_5,
+        #h3_6,
+        #h3_7,
+        #h3_8,
+        #h3_9,
+        #h3_10,
+        #h3_11,
+        #h3_12,
+        #h3_13,
+        #h3_14,
+        #h3_15,
+        #h3_16,
+        #p-content1 ul li,
+        #p-content2 ul li,
+        #p-content3 ul li,
+        #p-content4 ul li,
+        #p-content5 ul li,
+        #p-content6 ul li,
+        #p-content7 ul li,
+        #p-content8 ul li,
+        #p-content9 ul li,
+        #p-content10 ul li,
+        #p-content11 ul li,
+        #p-content12 ul li,
+        #p-content13 ul li,
+        #p-content14 ul li,
+        #p-content15 ul li,
+        #p-content16 ul li,
+        #p-content1 ol li,
+        #p-content2 ol li,
+        #p-content3 ol li,
+        #p-content4 ol li,
+        #p-content5 ol li,
+        #p-content6 ol li,
+        #p-content7 ol li,
+        #p-content8 ol li,
+        #p-content9 ol li,
+        #p-content10 ol li,
+        #p-content11 ol li,
+        #p-content12 ol li,
+        #p-content13 ol li,
+        #p-content14 ol li,
+        #p-content15 ol li,
+        #p-content16 ol li {
+            display: none;
+        }
+
+        #sublist1_directions,
+        #sublist2_directions,
+        #sublist3_directions,
+        #sublist4_directions,
+        #sublist5_directions,
+        #sublist6_directions,
+        #sublist7_directions,
+        #sublist8_directions,
+        #sublist9_directions,
+        #sublist10_directions,
+        #sublist11_directions,
+        #sublist12_directions,
+        #sublist13_directions,
+        #sublist14_directions,
+        #sublist15_directions,
+        #sublist16_directions {
+            position: relative;
+            text-align: center;
+            margin: 30px auto 10px auto;
+            width: 100%;
+        }
+
+        /*recipe content end*/
+
         .cake_images {
             position: relative;
             height: 350px;
@@ -1299,6 +1677,83 @@
             font-weight: 600;
         }
 
+        /*recipe content start*/
+        .p-content-recipe,
+        #h3_1,
+        #h3_2,
+        #h3_3,
+        #h3_4,
+        #h3_5,
+        #h3_6,
+        #h3_7,
+        #h3_8,
+        #h3_9,
+        #h3_10,
+        #h3_11,
+        #h3_12,
+        #h3_13,
+        #h3_14,
+        #h3_15,
+        #h3_16,
+        #p-content1 ul li,
+        #p-content2 ul li,
+        #p-content3 ul li,
+        #p-content4 ul li,
+        #p-content5 ul li,
+        #p-content6 ul li,
+        #p-content7 ul li,
+        #p-content8 ul li,
+        #p-content9 ul li,
+        #p-content10 ul li,
+        #p-content11 ul li,
+        #p-content12 ul li,
+        #p-content13 ul li,
+        #p-content14 ul li,
+        #p-content15 ul li,
+        #p-content16 ul li,
+        #p-content1 ol li,
+        #p-content2 ol li,
+        #p-content3 ol li,
+        #p-content4 ol li,
+        #p-content5 ol li,
+        #p-content6 ol li,
+        #p-content7 ol li,
+        #p-content8 ol li,
+        #p-content9 ol li,
+        #p-content10 ol li,
+        #p-content11 ol li,
+        #p-content12 ol li,
+        #p-content13 ol li,
+        #p-content14 ol li,
+        #p-content15 ol li,
+        #p-content16 ol li {
+            display: none;
+        }
+
+        #sublist1_directions,
+        #sublist2_directions,
+        #sublist3_directions,
+        #sublist4_directions,
+        #sublist5_directions,
+        #sublist6_directions,
+        #sublist7_directions,
+        #sublist8_directions,
+        #sublist9_directions,
+        #sublist10_directions,
+        #sublist11_directions,
+        #sublist12_directions,
+        #sublist13_directions,
+        #sublist14_directions,
+        #sublist15_directions,
+        #sublist16_directions {
+            position: relative;
+            text-align: center;
+            margin: 30px auto 10px auto;
+            width: 100%;
+        }
+
+        /*recipe content end*/
+
         .cake_images {
             position: relative;
             height: 400px;
@@ -1519,6 +1974,83 @@
             font-weight: 600;
         }
 
+        /*recipe content start*/
+        .p-content-recipe,
+        #h3_1,
+        #h3_2,
+        #h3_3,
+        #h3_4,
+        #h3_5,
+        #h3_6,
+        #h3_7,
+        #h3_8,
+        #h3_9,
+        #h3_10,
+        #h3_11,
+        #h3_12,
+        #h3_13,
+        #h3_14,
+        #h3_15,
+        #h3_16,
+        #p-content1 ul li,
+        #p-content2 ul li,
+        #p-content3 ul li,
+        #p-content4 ul li,
+        #p-content5 ul li,
+        #p-content6 ul li,
+        #p-content7 ul li,
+        #p-content8 ul li,
+        #p-content9 ul li,
+        #p-content10 ul li,
+        #p-content11 ul li,
+        #p-content12 ul li,
+        #p-content13 ul li,
+        #p-content14 ul li,
+        #p-content15 ul li,
+        #p-content16 ul li,
+        #p-content1 ol li,
+        #p-content2 ol li,
+        #p-content3 ol li,
+        #p-content4 ol li,
+        #p-content5 ol li,
+        #p-content6 ol li,
+        #p-content7 ol li,
+        #p-content8 ol li,
+        #p-content9 ol li,
+        #p-content10 ol li,
+        #p-content11 ol li,
+        #p-content12 ol li,
+        #p-content13 ol li,
+        #p-content14 ol li,
+        #p-content15 ol li,
+        #p-content16 ol li {
+            display: none;
+        }
+
+        #sublist1_directions,
+        #sublist2_directions,
+        #sublist3_directions,
+        #sublist4_directions,
+        #sublist5_directions,
+        #sublist6_directions,
+        #sublist7_directions,
+        #sublist8_directions,
+        #sublist9_directions,
+        #sublist10_directions,
+        #sublist11_directions,
+        #sublist12_directions,
+        #sublist13_directions,
+        #sublist14_directions,
+        #sublist15_directions,
+        #sublist16_directions {
+            position: relative;
+            text-align: center;
+            margin: 30px auto 10px auto;
+            width: 100%;
+        }
+
+        /*recipe content end*/
+
         .cake_images {
             position: relative;
             height: 450px;
@@ -1732,6 +2264,83 @@
             padding-bottom: 10px;
             font-weight: 600;
         }
+
+        /*recipe content start*/
+        .p-content-recipe,
+        #h3_1,
+        #h3_2,
+        #h3_3,
+        #h3_4,
+        #h3_5,
+        #h3_6,
+        #h3_7,
+        #h3_8,
+        #h3_9,
+        #h3_10,
+        #h3_11,
+        #h3_12,
+        #h3_13,
+        #h3_14,
+        #h3_15,
+        #h3_16,
+        #p-content1 ul li,
+        #p-content2 ul li,
+        #p-content3 ul li,
+        #p-content4 ul li,
+        #p-content5 ul li,
+        #p-content6 ul li,
+        #p-content7 ul li,
+        #p-content8 ul li,
+        #p-content9 ul li,
+        #p-content10 ul li,
+        #p-content11 ul li,
+        #p-content12 ul li,
+        #p-content13 ul li,
+        #p-content14 ul li,
+        #p-content15 ul li,
+        #p-content16 ul li,
+        #p-content1 ol li,
+        #p-content2 ol li,
+        #p-content3 ol li,
+        #p-content4 ol li,
+        #p-content5 ol li,
+        #p-content6 ol li,
+        #p-content7 ol li,
+        #p-content8 ol li,
+        #p-content9 ol li,
+        #p-content10 ol li,
+        #p-content11 ol li,
+        #p-content12 ol li,
+        #p-content13 ol li,
+        #p-content14 ol li,
+        #p-content15 ol li,
+        #p-content16 ol li {
+            display: none;
+        }
+
+        #sublist1_directions,
+        #sublist2_directions,
+        #sublist3_directions,
+        #sublist4_directions,
+        #sublist5_directions,
+        #sublist6_directions,
+        #sublist7_directions,
+        #sublist8_directions,
+        #sublist9_directions,
+        #sublist10_directions,
+        #sublist11_directions,
+        #sublist12_directions,
+        #sublist13_directions,
+        #sublist14_directions,
+        #sublist15_directions,
+        #sublist16_directions {
+            position: relative;
+            text-align: center;
+            margin: 30px auto 10px auto;
+            width: 100%;
+        }
+
+        /*recipe content end*/
 
         .cake_images {
             position: relative;
@@ -1983,15 +2592,45 @@
         #p-content14 ul li,
         #p-content15 ul li,
         #p-content16 ul li,
-        #p-content1 ol #liA_SubA1,
-        #p-content1 ol #liA_SubA2,
-        #p-content1 ol #liA_SubA3,
-        #p-content1 ol #liA_SubA4,
-        #p-content1 ol #liA_SubA5,
-        #p-content1 ol #liA_SubA6,
-        #p-content1 ol #liA_SubA7,
-        #p-content1 ol #liA_SubA8 {
+        #p-content1 ol li,
+        #p-content2 ol li,
+        #p-content3 ol li,
+        #p-content4 ol li,
+        #p-content5 ol li,
+        #p-content6 ol li,
+        #p-content7 ol li,
+        #p-content8 ol li,
+        #p-content9 ol li,
+        #p-content10 ol li,
+        #p-content11 ol li,
+        #p-content12 ol li,
+        #p-content13 ol li,
+        #p-content14 ol li,
+        #p-content15 ol li,
+        #p-content16 ol li {
             display: none;
+        }
+
+        #sublist1_directions,
+        #sublist2_directions,
+        #sublist3_directions,
+        #sublist4_directions,
+        #sublist5_directions,
+        #sublist6_directions,
+        #sublist7_directions,
+        #sublist8_directions,
+        #sublist9_directions,
+        #sublist10_directions,
+        #sublist11_directions,
+        #sublist12_directions,
+        #sublist13_directions,
+        #sublist14_directions,
+        #sublist15_directions,
+        #sublist16_directions {
+            position: relative;
+            text-align: center;
+            margin: 30px auto 10px auto;
+            width: 100%;
         }
 
         /*recipe content end*/
