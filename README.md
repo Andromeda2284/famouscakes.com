@@ -10,4 +10,4 @@ Questions:
 Email me: lauren.fabian2001@gmail.com
 
 NOTE:
-This web app blog information is owned by purewow.com, however, this blog is just for show to present my level of skill, improve my skill,  and is not to be distrbuted for realtime use.
+This web app blog information is owned by purewow.com, however, this blog is just for show to present my level of skill, improve my skill,  and is not to be distributed for real-time use.
