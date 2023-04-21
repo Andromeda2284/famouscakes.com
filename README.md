@@ -1,5 +1,5 @@
 Hello my name is Lauren. 
-I am a: junior software developer.
+I am a junior software developer.
 
 #famouscakes.com
 Web app blog about the different types of cake, its recipes and how to make them. 
