@@ -1,4 +1,3 @@
-
 function view_item1A() {
     try {
         /*fonts properties start*/
@@ -21,11 +20,13 @@ function view_item1A() {
         /*display properties end*/
 
         /*list styling start*/
-        let _list_style_decimal1 = "decimal";
+        let _list_style_decimal1 = "inside decimal";
+        let _list_style_decimal1_1 = "inside";
+
         /*list styling end*/
 
         /**/
-        let _width1_ = "400px";
+        let _width1_ = "auto";
         /**/
 
         document.getElementById("btn1").style.display = _displaynoneA1;
@@ -212,11 +213,11 @@ function view_item1B() {
         /*display properties end*/
 
         /*list styling start*/
-        let _list_style_decimal_2 = "decimal";
+        let _list_style_decimal_2 = "inside decimal";
         /*list styling end*/
 
         /**/
-        let _width2_ = "400px";
+        let _width2_ = "auto";
         /**/
 
         document.getElementById("btn3").style.display = _displaynone_1B;
@@ -403,11 +404,11 @@ function view_item1C() {
         /*display properties end*/
 
         /*list styling start*/
-        let _list_style_decimal_3 = "decimal";
+        let _list_style_decimal_3 = "inside decimal";
         /*list styling end*/
 
         /**/
-        let _width3_ = "400px";
+        let _width3_ = "auto";
         /**/
 
         document.getElementById("btn5").style.display = _displaynone_1C;
@@ -589,11 +590,11 @@ function view_item1D() {
         /*display properties end*/
 
         /*list styling start*/
-        let _list_style_decimal_4 = "decimal";
+        let _list_style_decimal_4 = "inside decimal";
         /*list styling end*/
 
         /**/
-        let _width4_ = "400px";
+        let _width4_ = "auto";
         /**/
 
         document.getElementById("btn7").style.display = _displaynone_1D;
@@ -753,11 +754,11 @@ function view_item1E() {
         /*display properties end*/
 
         /*list styling start*/
-        let _list_style_decimal_5 = "decimal";
+        let _list_style_decimal_5 = "inside decimal";
         /*list styling end*/
 
         /**/
-        let _width5_ = "400px";
+        let _width5_ = "auto";
         /**/
 
         document.getElementById("btn9").style.display = _displaynone_1E;
@@ -941,11 +942,11 @@ function view_item1F() {
         /*display properties end*/
 
         /*list styling start*/
-        let _list_style_decimal_6 = "decimal";
+        let _list_style_decimal_6 = "inside decimal";
         /*list styling end*/
 
         /**/
-        let _width6_ = "400px";
+        let _width6_ = "auto";
         /**/
 
         document.getElementById("btn11").style.display = _displaynone_1F;
@@ -1116,11 +1117,11 @@ function view_item1G() {
         /*display properties end*/
 
         /*list styling start*/
-        let _list_style_decimal_7 = "decimal";
+        let _list_style_decimal_7 = "inside decimal";
         /*list styling end*/
 
         /**/
-        let _width7_ = "400px";
+        let _width7_ = "auto";
         /**/
 
         document.getElementById("btn13").style.display = _displaynone_1G;
@@ -1313,11 +1314,11 @@ function view_item1H() {
         /*display properties end*/
 
         /*list styling start*/
-        let _list_style_decimal_8 = "decimal";
+        let _list_style_decimal_8 = "inside decimal";
         /*list styling end*/
 
         /**/
-        let _width8_ = "400px";
+        let _width8_ = "auto";
         /**/
 
         document.getElementById("btn15").style.display = _displaynone_1H;
@@ -1504,11 +1505,11 @@ function view_item1I() {
         /*display properties end*/
 
         /*list styling start*/
-        let _list_style_decimal_9 = "decimal";
+        let _list_style_decimal_9 = "inside decimal";
         /*list styling end*/
 
         /**/
-        let _width9_ = "400px";
+        let _width9_ = "auto";
         /**/
 
         document.getElementById("btn17").style.display = _displaynone_1I;
@@ -1687,11 +1688,11 @@ function view_item1J() {
         /*display properties end*/
 
         /*list styling start*/
-        let _list_style_decimal_10 = "decimal";
+        let _list_style_decimal_10 = "inside decimal";
         /*list styling end*/
 
         /**/
-        let _width10_ = "400px";
+        let _width10_ = "auto";
         /**/
 
         document.getElementById("btn19").style.display = _displaynone_1J;
@@ -1863,11 +1864,11 @@ function view_item1K() {
         /*display properties end*/
 
         /*list styling start*/
-        let _list_style_decimal_11 = "decimal";
+        let _list_style_decimal_11 = "inside decimal";
         /*list styling end*/
 
         /**/
-        let _width11_ = "400px";
+        let _width11_ = "auto";
         /**/
 
         document.getElementById("btn21").style.display = _displaynone_1K;
@@ -2077,11 +2078,11 @@ function view_item1L() {
         /*display properties end*/
 
         /*list styling start*/
-        let _list_style_decimal_12 = "decimal";
+        let _list_style_decimal_12 = "inside decimal";
         /*list styling end*/
 
         /**/
-        let _width12_ = "400px";
+        let _width12_ = "auto";
         /**/
 
         document.getElementById("btn23").style.display = _displaynone_1L;
@@ -2273,11 +2274,11 @@ function view_item1M() {
         /*display properties end*/
 
         /*list styling start*/
-        let _list_style_decimal_13 = "decimal";
+        let _list_style_decimal_13 = "inside decimal";
         /*list styling end*/
 
         /**/
-        let _width13_ = "400px";
+        let _width13_ = "auto";
         /**/
 
         document.getElementById("btn25").style.display = _displaynone_1M;
@@ -2468,11 +2469,11 @@ function view_item1N() {
         /*display properties end*/
 
         /*list styling start*/
-        let _list_style_decimal_14 = "decimal";
+        let _list_style_decimal_14 = "inside decimal";
         /*list styling end*/
 
         /**/
-        let _width14_ = "400px";
+        let _width14_ = "auto";
         /**/
 
         document.getElementById("btn27").style.display = _displaynone_1N;
@@ -2628,11 +2629,11 @@ function view_item1O() {
         /*display properties end*/
 
         /*list styling start*/
-        let _list_style_decimal_15 = "decimal";
+        let _list_style_decimal_15 = "inside decimal";
         /*list styling end*/
 
         /**/
-        let _width15_ = "400px";
+        let _width15_ = "auto";
         /**/
 
         document.getElementById("btn29").style.display = _displaynone_1_O;
@@ -2835,11 +2836,11 @@ function view_item1P() {
         /*display properties end*/
 
         /*list styling start*/
-        let _list_style_decimal_16 = "decimal";
+        let _list_style_decimal_16 = "inside decimal";
         /*list styling end*/
 
         /**/
-        let _width16_ = "400px";
+        let _width16_ = "auto";
         /**/
 
         document.getElementById("btn31").style.display = _displaynone_1P;
