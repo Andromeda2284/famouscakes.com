@@ -4,7 +4,6 @@
     }
 
     /*Header section start*/
-
     header {
         background-color: blue;
         height: 50px;
@@ -17,50 +16,8 @@
     }
 
     #h1 {
-        margin: 10px auto auto auto;
-        font-weight: 600;
-        font-family: Georgia, 'Times New Roman', Times, serif;
-    }
-
-    #search-form {
-        display: flex;
-        flex: wrap;
-        margin: auto 200px auto auto;
-        height: 20px;
-    }
-
-    #Search {
-        width: 260px;
-        margin: -4px auto auto auto;
-
-        padding: 5px 10px 5px 10px;
-        border-radius: 20px;
-    }
-
-    #Search:focus {
-        color: blue;
-        background-color: aliceblue;
-    }
-
-
-    #submit-btn {
-        position: relative;
-        right: -10px;
-        width: 80px;
-        height: auto;
-        margin: -4px -10px auto auto;
-        border-radius: 20px;
-        padding: 5px 10px 5px 10px;
-    }
-
-    #select-colors {
-        display: none;
-        /*block*/
-        position: relative;
-        height: 30px;
-        width: 120px;
-        text-align: center;
-        margin: auto 30px auto auto;
+        margin: auto auto auto auto;
+        padding: 15px 0px 0px 0px;
     }
 
     /*Navcontent start*/
@@ -102,7 +59,6 @@
     }
 
     /*Navcontent end*/
-
     /*main content start*/
 
     .h2 {
@@ -118,10 +74,6 @@
         flex-wrap: wrap;
         justify-content: center;
         background-color: #000;
-    }
-
-    img {
-        /*display: none;*/
     }
 
     .cake-section {
@@ -245,7 +197,6 @@
     }
 
     h3 {
-        text-decoration: underline;
         width: auto;
         margin: auto auto auto auto;
     }
@@ -287,13 +238,10 @@
         display: none;
     }
 
-
-
     /*main content end*/
-
     /*Header section end*/
-
     /*footer section start*/
+
     footer {
         text-align: center;
         background-color: blue;
@@ -314,7 +262,6 @@
         }
 
         /*Header section start*/
-
         header {
             position: relative;
             background-color: blue;
@@ -332,54 +279,6 @@
         #h1 {
             text-align: center;
             margin: auto auto auto auto;
-        }
-
-        #search-form {
-            position: relative;
-            text-align: center;
-            margin: auto auto auto auto;
-            height: 40px;
-            width: auto;
-
-        }
-
-        #Search {
-            width: 100px;
-            margin: auto auto auto auto;
-            padding: 5px 10px 5px 10px;
-            border-radius: 20px;
-        }
-
-        #Search:focus {
-            position: relative;
-            width: 200px;
-            z-index: 2;
-            color: blue;
-            background-color: aliceblue;
-        }
-
-
-        #submit-btn {
-            position: relative;
-            right: 0px;
-            width: 80px;
-            height: auto;
-            margin: auto auto auto auto;
-            border-radius: 20px;
-            padding: 5px 10px 5px 10px;
-        }
-
-
-        #select-colors {
-            display: none;
-            /*block*/
-            position: relative;
-            height: 30px;
-            width: 120px;
-            text-align: center;
-            margin: auto
-                /*30px*/
-                auto auto auto;
         }
 
         /*Navcontent start*/
@@ -418,7 +317,6 @@
         }
 
         /*Navcontent end*/
-
         /*main content start*/
 
         .h2 {
@@ -435,10 +333,6 @@
             background-color: #000;
             margin: auto auto auto auto;
             text-align: center;
-        }
-
-        img {
-            /*display: none;*/
         }
 
         .cake-section {
@@ -562,7 +456,6 @@
         }
 
         h3 {
-            text-decoration: underline;
             width: auto;
             margin: auto auto auto auto;
         }
@@ -588,10 +481,9 @@
         }
 
         /*main content end*/
-
         /*Header section end*/
-
         /*footer section start*/
+
         footer {
             text-align: center;
             background-color: blue;
@@ -619,7 +511,6 @@
         }
 
         /*Header section start*/
-
         header {
             position: relative;
             background-color: blue;
@@ -637,53 +528,7 @@
         #h1 {
             text-align: center;
             margin: auto auto auto auto;
-        }
-
-        #search-form {
-            display: flex;
-            flex: wrap;
-            margin: auto auto auto auto;
-            height: 40px;
-            width: inherit;
-        }
-
-        #Search {
-            width: auto;
-            margin: auto auto auto auto;
-            padding: 5px 10px 5px 10px;
-            border-radius: 20px;
-        }
-
-        #Search:focus {
-            position: relative;
-            width: 200px;
-            z-index: 2;
-            color: blue;
-            background-color: aliceblue;
-        }
-
-
-        #submit-btn {
-            position: relative;
-            right: 0px;
-            width: 80px;
-            height: auto;
-            margin: auto auto auto auto;
-            border-radius: 20px;
-            padding: 5px 10px 5px 10px;
-        }
-
-
-        #select-colors {
-            display: none;
-            /*block*/
-            position: relative;
-            height: 30px;
-            width: 120px;
-            text-align: center;
-            margin: auto
-                /*30px*/
-                auto auto auto;
+            padding: 0px 0px 0px 0px;
         }
 
         /*Navcontent start*/
@@ -721,7 +566,6 @@
         }
 
         /*Navcontent end*/
-
         /*main content start*/
 
         .h2 {
@@ -738,10 +582,6 @@
             justify-content: center;
             background-color: #000;
             margin: auto auto auto auto;
-        }
-
-        img {
-            /*display: none;*/
         }
 
         .cake-section {
@@ -865,7 +705,6 @@
         }
 
         h3 {
-            text-decoration: underline;
             width: auto;
             margin: auto auto auto auto;
         }
@@ -891,10 +730,9 @@
         }
 
         /*main content end*/
-
         /*Header section end*/
-
         /*footer section start*/
+
         footer {
             text-align: center;
             background-color: blue;
@@ -935,48 +773,8 @@
         }
 
         #h1 {
-            margin: 0px 10px 0px 10px;
-        }
-
-        #search-form {
-            position: relative;
-            justify-content: center;
-            margin: 10px auto auto auto;
-            height: inherit;
-        }
-
-        #Search {
-            width: 186px;
-            margin: -4px auto auto auto;
-
-            padding: 5px 10px 5px 10px;
-            border-radius: 20px;
-        }
-
-        #Search:focus {
-            color: blue;
-            background-color: aliceblue;
-        }
-
-
-        #submit-btn {
-            position: relative;
-            right: -10px;
-            width: 80px;
-            height: auto;
-            margin: -4px -10px auto auto;
-            border-radius: 20px;
-            padding: 5px 10px 5px 10px;
-        }
-
-        #select-colors {
-            display: none;
-            /*block*/
-            position: relative;
-            height: 30px;
-            width: 120px;
-            text-align: center;
-            margin: auto 30px auto auto;
+            margin: auto auto auto auto;
+            padding: 15px 0px 0px 0px;
         }
 
         /*Header End*/
@@ -1034,10 +832,6 @@
             justify-content: center;
             background-color: #000;
             margin: auto auto auto auto;
-        }
-
-        img {
-            /*display: none;*/
         }
 
         .cake-section {
@@ -1162,7 +956,6 @@
         }
 
         h3 {
-            text-decoration: underline;
             width: auto;
             margin: auto auto auto auto;
         }
@@ -1188,10 +981,9 @@
         }
 
         /*main content end*/
-
         /*Header section end*/
-
         /*footer section start*/
+
         footer {
             text-align: center;
             background-color: blue;
@@ -1231,48 +1023,8 @@
         }
 
         #h1 {
-            margin: 0px 10px 0px 10px;
-        }
-
-        #search-form {
-            position: relative;
-            justify-content: center;
-            margin: 10px auto auto auto;
-            height: inherit;
-        }
-
-        #Search {
-            width: 186px;
-            margin: -4px auto auto auto;
-
-            padding: 5px 10px 5px 10px;
-            border-radius: 20px;
-        }
-
-        #Search:focus {
-            color: blue;
-            background-color: aliceblue;
-        }
-
-
-        #submit-btn {
-            position: relative;
-            right: -10px;
-            width: 80px;
-            height: auto;
-            margin: -4px -10px auto auto;
-            border-radius: 20px;
-            padding: 5px 10px 5px 10px;
-        }
-
-        #select-colors {
-            display: none;
-            /*block*/
-            position: relative;
-            height: 30px;
-            width: 120px;
-            text-align: center;
-            margin: auto 30px auto auto;
+            margin: auto auto auto auto;
+            padding: 15px 0px 0px 0px;
         }
 
         /*Header End*/
@@ -1334,10 +1086,6 @@
             justify-content: center;
             background-color: #000;
             margin: auto auto auto auto;
-        }
-
-        img {
-            /*display: none;*/
         }
 
         .cake-section {
@@ -1462,7 +1210,6 @@
         }
 
         h3 {
-            text-decoration: underline;
             width: auto;
             margin: auto auto auto auto;
         }
@@ -1488,9 +1235,7 @@
         }
 
         /*main content end*/
-
         /*Header section end*/
-
         /*footer section start*/
         footer {
             text-align: center;
@@ -1531,48 +1276,8 @@
         }
 
         #h1 {
-            margin: 0px 10px 0px 10px;
-        }
-
-        #search-form {
-            position: relative;
-            justify-content: center;
-            margin: 10px auto auto auto;
-            height: inherit;
-        }
-
-        #Search {
-            width: 186px;
-            margin: -4px auto auto auto;
-
-            padding: 5px 10px 5px 10px;
-            border-radius: 20px;
-        }
-
-        #Search:focus {
-            color: blue;
-            background-color: aliceblue;
-        }
-
-
-        #submit-btn {
-            position: relative;
-            right: -10px;
-            width: 80px;
-            height: auto;
-            margin: -4px -10px auto auto;
-            border-radius: 20px;
-            padding: 5px 10px 5px 10px;
-        }
-
-        #select-colors {
-            display: none;
-            /*block*/
-            position: relative;
-            height: 30px;
-            width: 120px;
-            text-align: center;
-            margin: auto 30px auto auto;
+            margin: auto auto auto auto;
+            padding: 15px 0px 0px 0px;
         }
 
         /*Header End*/
@@ -1634,10 +1339,6 @@
             justify-content: center;
             background-color: #000;
             margin: auto auto auto auto;
-        }
-
-        img {
-            /*display: none;*/
         }
 
         .cake-section {
@@ -1762,7 +1463,6 @@
         }
 
         h3 {
-            text-decoration: underline;
             width: auto;
             margin: auto auto auto auto;
         }
@@ -1788,10 +1488,9 @@
         }
 
         /*main content end*/
-
         /*Header section end*/
-
         /*footer section start*/
+
         footer {
             text-align: center;
             background-color: blue;
@@ -1817,7 +1516,6 @@
         }
 
         /*Header section start*/
-
         header {
             background-color: blue;
             height: 50px;
@@ -1830,49 +1528,9 @@
         }
 
         #h1 {
-            margin: 10px 10px 10px 10px;
-        }
-
-        #search-form {
-            display: flex;
-            flex: wrap;
-            margin: auto 200px auto auto;
-            height: 20px;
-
-        }
-
-        #Search {
-            width: 260px;
-            margin: -4px auto auto auto;
-
-            padding: 5px 10px 5px 10px;
-            border-radius: 20px;
-        }
-
-        #Search:focus {
-            color: blue;
-            background-color: aliceblue;
-        }
-
-
-        #submit-btn {
-            position: relative;
-            right: -10px;
-            width: 80px;
-            height: auto;
-            margin: -4px -10px auto auto;
-            border-radius: 20px;
-            padding: 5px 10px 5px 10px;
-        }
-
-        #select-colors {
-            display: none;
-            /*block*/
-            position: relative;
-            height: 30px;
-            width: 120px;
-            text-align: center;
-            margin: auto 30px auto auto;
+            margin: auto auto auto auto;
+            padding: 10px 0px 0px 0px;
+            /*list-style: inside decimal;*/
         }
 
         /*Navcontent start*/
@@ -1930,10 +1588,6 @@
             flex-wrap: wrap;
             justify-content: center;
             background-color: #000;
-        }
-
-        img {
-            /*display: none;*/
         }
 
         .cake-section {
@@ -2059,7 +1713,6 @@
         }
 
         h3 {
-            text-decoration: underline;
             width: auto;
             margin: auto auto auto auto;
         }
@@ -2085,7 +1738,6 @@
         }
 
         /*main content end*/
-
         /*Header section end*/
 
         /*footer section start*/
@@ -2111,7 +1763,6 @@
         }
 
         /*Header section start*/
-
         header {
             background-color: blue;
             height: 50px;
@@ -2124,49 +1775,8 @@
         }
 
         #h1 {
-            margin: 10px 10px 10px 10px;
-        }
-
-        #search-form {
-            display: flex;
-            flex: wrap;
-            margin: auto 200px auto auto;
-            height: 20px;
-
-        }
-
-        #Search {
-            width: 260px;
-            margin: -4px auto auto auto;
-
-            padding: 5px 10px 5px 10px;
-            border-radius: 20px;
-        }
-
-        #Search:focus {
-            color: blue;
-            background-color: aliceblue;
-        }
-
-
-        #submit-btn {
-            position: relative;
-            right: -10px;
-            width: 80px;
-            height: auto;
-            margin: -4px -10px auto auto;
-            border-radius: 20px;
-            padding: 5px 10px 5px 10px;
-        }
-
-        #select-colors {
-            display: none;
-            /*block*/
-            position: relative;
-            height: 30px;
-            width: 120px;
-            text-align: center;
-            margin: auto 30px auto auto;
+            margin: auto auto auto auto;
+            padding: 10px 0px 0px 0px;
         }
 
         /*Navcontent start*/
@@ -2208,7 +1818,6 @@
         }
 
         /*Navcontent end*/
-
         /*main content start*/
 
         .h2 {
@@ -2224,10 +1833,6 @@
             flex-wrap: wrap;
             justify-content: center;
             background-color: #000;
-        }
-
-        img {
-            /*display: none;*/
         }
 
         .cake-section {
@@ -2350,7 +1955,6 @@
         }
 
         h3 {
-            text-decoration: underline;
             width: auto;
             margin: auto auto auto auto;
         }
@@ -2415,9 +2019,8 @@
         }
 
         #h1 {
-            margin: 10px auto auto auto;
-            font-weight: 600;
-            font-family: Georgia, 'Times New Roman', Times, serif;
+            margin: auto auto auto auto;
+            padding: 10px 0px 0px 0px;
         }
 
         #search-form {
@@ -2439,7 +2042,6 @@
             color: blue;
             background-color: aliceblue;
         }
-
 
         #submit-btn {
             position: relative;
@@ -2500,9 +2102,7 @@
         }
 
         /*Navcontent end*/
-
         /*main content start*/
-
         .h2 {
             display: block;
             text-align: center;
@@ -2516,10 +2116,6 @@
             flex-wrap: wrap;
             justify-content: center;
             background-color: #000;
-        }
-
-        img {
-            /*display: none;*/
         }
 
         .cake-section {
@@ -2642,7 +2238,6 @@
         }
 
         h3 {
-            text-decoration: underline;
             width: auto;
             margin: auto auto auto auto;
         }
@@ -2685,9 +2280,7 @@
         }
 
         /*main content end*/
-
         /*Header section end*/
-
         /*footer section start*/
         footer {
             text-align: center;
