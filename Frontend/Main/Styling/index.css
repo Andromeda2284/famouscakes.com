@@ -1,35 +1,279 @@
-    * {
-        margin: 0;
-        padding: 0;
-    }
+* {
+    margin: 0;
+    padding: 0;
+}
 
-    /*Header section start*/
-    header {
-        background-color: blue;
-        height: 50px;
-        margin: auto auto auto auto;
-    }
+/*Header section start*/
+header {
+    background-color: blue;
+    height: 50px;
+    margin: auto auto auto auto;
+}
 
+#header-nav {
+    display: flex;
+    color: white;
+}
+
+#h1 {
+    margin: auto auto auto auto;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+}
+
+/*Navcontent start*/
+
+#wrap-nav-content {
+    text-align: center;
+    margin: auto auto;
+    background-color: black;
+    color: white;
+}
+
+#list {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+#list li {
+    width: 250px;
+}
+
+nav h2 {
+    margin: auto auto;
+    font-size: 2rem;
+}
+
+.content-navigation {
+    width: 170px;
+    font-size: 20pt;
+    margin: 10px 0px 10px 55px;
+}
+
+.content-navigation a {
+    color: white;
+    text-decoration: none;
+}
+
+.content-navigation a:hover {
+    color: blue;
+}
+
+/*Navcontent end*/
+/*main content start*/
+
+.h2 {
+    display: block;
+    text-align: center;
+    margin: 10px auto 10px auto;
+    font-size: 2rem;
+    font-style: oblique;
+}
+
+#cake-contents {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #000;
+}
+
+.cake-section {
+    width: 700px;
+    text-align: center;
+    font-size: 16pt;
+    border-radius: 10px;
+    border-style: groove;
+    border-top-color: aquamarine;
+    border-bottom-color: aquamarine;
+    border-left-color: aquamarine;
+    border-right-color: aquamarine;
+    margin: 10px 10px 10px 10px;
+}
+
+.cake-section>div {
+    background-color: darkgrey;
+    color: #fff;
+    border-radius: 10px;
+    padding-bottom: 10px;
+}
+
+figure {
+    position: relative;
+    height: inherit;
+    width: inherit;
+    margin: 0px 20px 0px 20px;
+    padding: 20px 0px 0px 0px;
+
+    overflow: hidden;
+}
+
+figcaption {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 600;
+}
+
+/*recipe content start*/
+.p-content-recipe,
+#h3_1,
+#h3_2,
+#h3_3,
+#h3_4,
+#h3_5,
+#h3_6,
+#h3_7,
+#h3_8,
+#h3_9,
+#h3_10,
+#h3_11,
+#h3_12,
+#h3_13,
+#h3_14,
+#h3_15,
+#h3_16,
+#p-content1 ul li,
+#p-content2 ul li,
+#p-content3 ul li,
+#p-content4 ul li,
+#p-content5 ul li,
+#p-content6 ul li,
+#p-content7 ul li,
+#p-content8 ul li,
+#p-content9 ul li,
+#p-content10 ul li,
+#p-content11 ul li,
+#p-content12 ul li,
+#p-content13 ul li,
+#p-content14 ul li,
+#p-content15 ul li,
+#p-content16 ul li,
+#p-content1 ol li,
+#p-content2 ol li,
+#p-content3 ol li,
+#p-content4 ol li,
+#p-content5 ol li,
+#p-content6 ol li,
+#p-content7 ol li,
+#p-content8 ol li,
+#p-content9 ol li,
+#p-content10 ol li,
+#p-content11 ol li,
+#p-content12 ol li,
+#p-content13 ol li,
+#p-content14 ol li,
+#p-content15 ol li,
+#p-content16 ol li {
+    display: none;
+}
+
+#sublist1_directions,
+#sublist2_directions,
+#sublist3_directions,
+#sublist4_directions,
+#sublist5_directions,
+#sublist6_directions,
+#sublist7_directions,
+#sublist8_directions,
+#sublist9_directions,
+#sublist10_directions,
+#sublist11_directions,
+#sublist12_directions,
+#sublist13_directions,
+#sublist14_directions,
+#sublist15_directions,
+#sublist16_directions {
+    position: relative;
+    text-align: center;
+    margin: 30px auto 10px auto;
+    width: 100%;
+}
+
+/*recipe content end*/
+
+.cake_images {
+    position: relative;
+    height: 650px;
+    width: 650px;
+    border-radius: 10px;
+}
+
+h3 {
+    width: auto;
+    margin: auto auto auto auto;
+}
+
+.btn-buy-cake-recipes-open {
+    position: relative;
+    padding: 10px 10px 10px 10px;
+    background-color: aquamarine;
+    border-radius: 10px;
+    border: 1px solid aquamarine;
+}
+
+.btn-buy-cake-recipes-open:hover {
+    position: relative;
+    padding: 10px 10px 10px 10px;
+    background-color: aquamarine;
+    border-radius: 10px;
+    border: 1px solid magenta;
+    box-shadow: 0px 0px 15px 5.5px magenta;
+}
+
+.btn-buy-cake-recipes-close {
+    display: none;
+    padding: 10px 10px 10px 10px;
+    background-color: magenta;
+    border-radius: 10px;
+    border: 1px solid aquamarine;
+}
+
+.btn-buy-cake-recipes-close:hover {
+    padding: 10px 10px 10px 10px;
+    background-color: aquamarine;
+    border-radius: 10px;
+    border: 1px solid magenta;
+    box-shadow: 0px 0px 15px 5.5px magenta;
+}
+
+.cake-section div>p {
+    display: none;
+}
+
+/*main content end*/
+/*Header section end*/
+/*footer section start*/
+
+footer {
+    text-align: center;
+    background-color: blue;
+    color: white;
+    padding: 10px 0px 10px 0px;
+}
+
+footer p {
+    font-weight: 600;
+}
+
+/*footer section end*/
+
+@media screen and (min-width:0) and (max-width: 300px) {
     #header-nav {
-        display: flex;
-        color: white;
-    }
-
-    #h1 {
-        margin: auto auto auto auto;
-        padding: 15px 0px 0px 0px;
+        display: block;
     }
 
     /*Navcontent start*/
-    #wrap-nav-content {
-        background-color: black;
+    .content-navigation a:link {
         color: white;
-        padding: 10px 0px 10px 0px
     }
 
-    nav h2 {
-        margin-left: 30px;
-        font-size: 20pt;
+    /*Navcontent end*/
+    /*main content start*/
+    #wrap-nav-content {
+        text-align: center;
+        margin: auto auto;
     }
 
     #list {
@@ -43,50 +287,72 @@
         width: 250px;
     }
 
-    .content-navigation {
-        width: 170px;
-        font-size: 20pt;
-        margin: 10px 0px 10px 55px;
+    .h2 {
+        display: block;
+        text-align: center;
+        margin: 10px auto 10px auto;
+        font-size: 1.5rem;
+        font-style: oblique;
     }
 
-    .content-navigation a {
+    .cake-section {
+        width: 250px;
+    }
+
+
+    .cake_images {
+        position: relative;
+        height: 180px;
+        width: 180px;
+        border-radius: 10px;
+    }
+
+    .cake-section div>p {
+        display: none;
+    }
+
+    /*main content end*/
+}
+
+@media screen and (min-width:301px) and (max-width: 400px) {
+    #header-nav {
+        display: block;
+    }
+
+    /*Navcontent start*/
+    .content-navigation:link {
         color: white;
-        text-decoration: none;
-    }
-
-    .content-navigation a:hover {
-        color: blue;
     }
 
     /*Navcontent end*/
     /*main content start*/
+    #wrap-nav-content {
+        text-align: center;
+        margin: auto auto;
+    }
+
+    #list {
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+
+    #list li {
+        width: 250px;
+    }
 
     .h2 {
         display: block;
         text-align: center;
         margin: 10px auto 10px auto;
-        font-size: 2rem;
+        font-size: 1.5rem;
         font-style: oblique;
     }
 
-    #cake-contents {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        background-color: #000;
-    }
-
     .cake-section {
-        width: 700px;
-        text-align: center;
-        font-size: 16pt;
-        border-radius: 10px;
-        border-style: groove;
-        border-top-color: aquamarine;
-        border-bottom-color: aquamarine;
-        border-left-color: aquamarine;
-        border-right-color: aquamarine;
-        margin: 10px 10px 10px 10px;
+        width: 250px;
     }
 
     .cake-section>div {
@@ -96,142 +362,14 @@
         padding-bottom: 10px;
     }
 
-    figure {
-        position: relative;
-        height: inherit;
-        width: inherit;
-        margin: 0px 20px 0px 20px;
-        padding: 20px 0px 0px 0px;
-
-        overflow: hidden;
-    }
-
-    figcaption {
-        padding-top: 10px;
-        padding-bottom: 10px;
-        font-weight: 600;
-    }
-
     /*recipe content start*/
-    .p-content-recipe,
-    #h3_1,
-    #h3_2,
-    #h3_3,
-    #h3_4,
-    #h3_5,
-    #h3_6,
-    #h3_7,
-    #h3_8,
-    #h3_9,
-    #h3_10,
-    #h3_11,
-    #h3_12,
-    #h3_13,
-    #h3_14,
-    #h3_15,
-    #h3_16,
-    #p-content1 ul li,
-    #p-content2 ul li,
-    #p-content3 ul li,
-    #p-content4 ul li,
-    #p-content5 ul li,
-    #p-content6 ul li,
-    #p-content7 ul li,
-    #p-content8 ul li,
-    #p-content9 ul li,
-    #p-content10 ul li,
-    #p-content11 ul li,
-    #p-content12 ul li,
-    #p-content13 ul li,
-    #p-content14 ul li,
-    #p-content15 ul li,
-    #p-content16 ul li,
-    #p-content1 ol li,
-    #p-content2 ol li,
-    #p-content3 ol li,
-    #p-content4 ol li,
-    #p-content5 ol li,
-    #p-content6 ol li,
-    #p-content7 ol li,
-    #p-content8 ol li,
-    #p-content9 ol li,
-    #p-content10 ol li,
-    #p-content11 ol li,
-    #p-content12 ol li,
-    #p-content13 ol li,
-    #p-content14 ol li,
-    #p-content15 ol li,
-    #p-content16 ol li {
-        display: none;
-    }
-
-    #sublist1_directions,
-    #sublist2_directions,
-    #sublist3_directions,
-    #sublist4_directions,
-    #sublist5_directions,
-    #sublist6_directions,
-    #sublist7_directions,
-    #sublist8_directions,
-    #sublist9_directions,
-    #sublist10_directions,
-    #sublist11_directions,
-    #sublist12_directions,
-    #sublist13_directions,
-    #sublist14_directions,
-    #sublist15_directions,
-    #sublist16_directions {
-        position: relative;
-        text-align: center;
-        margin: 30px auto 10px auto;
-        width: 100%;
-    }
-
     /*recipe content end*/
 
     .cake_images {
         position: relative;
-        height: 650px;
-        width: 650px;
+        height: 180px;
+        width: 180px;
         border-radius: 10px;
-    }
-
-    h3 {
-        width: auto;
-        margin: auto auto auto auto;
-    }
-
-    .btn-buy-cake-recipes-open {
-        position: relative;
-        padding: 10px 10px 10px 10px;
-        background-color: aquamarine;
-        border-radius: 10px;
-        border: 1px solid aquamarine;
-    }
-
-    .btn-buy-cake-recipes-open:hover {
-        position: relative;
-        padding: 10px 10px 10px 10px;
-        background-color: aquamarine;
-        border-radius: 10px;
-        border: 1px solid magenta;
-        box-shadow: 0px 0px 15px 5.5px magenta;
-    }
-
-    .btn-buy-cake-recipes-close {
-        display: none;
-        padding: 10px 10px 10px 10px;
-        background-color: magenta;
-        border-radius: 10px;
-        border: 1px solid aquamarine;
-    }
-
-    .btn-buy-cake-recipes-close:hover {
-        padding: 10px 10px 10px 10px;
-        background-color: aquamarine;
-        border-radius: 10px;
-        border: 1px solid magenta;
-        box-shadow: 0px 0px 15px 5.5px magenta;
     }
 
     .cake-section div>p {
@@ -239,2059 +377,283 @@
     }
 
     /*main content end*/
-    /*Header section end*/
-    /*footer section start*/
+}
 
-    footer {
-        text-align: center;
-        background-color: blue;
+@media screen and (min-width:401px) and (max-width: 500px) {
+    #header-nav {
+        display: block;
+    }
+
+    /*Navcontent start*/
+    .content-navigation a:link {
         color: white;
-        padding: 10px 0px 10px 0px;
     }
 
-    footer p {
-        font-weight: 600;
+    /*Navcontent end*/
+    /*main content start*/
+    #wrap-nav-content {
+        text-align: center;
+        margin: auto auto;
     }
 
-    /*footer section end*/
+    #list {
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
 
-    @media screen and (min-width:0) and (max-width: 300px) {
-        * {
-            margin: 0;
-            padding: 0;
-        }
-
-        /*Header section start*/
-        header {
-            position: relative;
-            background-color: blue;
-            height: auto;
-            margin: auto auto auto auto;
-            width: 100%;
-        }
-
-        #header-nav {
-            display: block;
-            margin: auto auto auto auto;
-            color: white;
-        }
-
-        #h1 {
-            text-align: center;
-            margin: auto auto auto auto;
-        }
-
-        /*Navcontent start*/
-        #wrap-nav-content {
-            background-color: black;
-            color: white;
-            margin: 0;
-            margin: auto auto auto auto;
-        }
-
-        nav #h1 {
-            font-size: 20pt;
-            margin: 0px 0px 10px 0px;
-        }
-
-        #list {
-            position: relative;
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-        }
-
-        #list li {
-            width: 250px;
-        }
-
-        .content-navigation {
-            width: 100%;
-            font-size: 20pt;
-            margin: 10px 0px 10px 55px;
-        }
-
-        .content-navigation a {
-            color: white;
-            text-decoration: none;
-        }
-
-        /*Navcontent end*/
-        /*main content start*/
-
-        .h2 {
-            display: block;
-            text-align: center;
-            margin: auto 20px auto 20px;
-            font-size: 15pt;
-            font-style: oblique;
-        }
-
-        #cake-contents {
-            display: flex;
-            flex-wrap: wrap;
-            background-color: #000;
-            margin: auto auto auto auto;
-            text-align: center;
-        }
-
-        .cake-section {
-            width: 250px;
-            text-align: center;
-            font-size: 16pt;
-            border-radius: 10px;
-            border-style: groove;
-            border-top-color: aquamarine;
-            border-bottom-color: aquamarine;
-            border-left-color: aquamarine;
-            border-right-color: aquamarine;
-            margin: 10px 10px 10px 10px;
-        }
-
-        .cake-section>div {
-            background-color: darkgrey;
-            color: #fff;
-            border-radius: 10px;
-            padding-bottom: 10px;
-        }
-
-        figure {
-            position: relative;
-            height: inherit;
-            width: inherit;
-            margin: 0px 20px 0px 20px;
-            padding: 20px 0px 0px 0px;
-
-            overflow: hidden;
-        }
-
-        figcaption {
-            padding-top: 10px;
-            padding-bottom: 10px;
-            font-weight: 600;
-        }
-
-        /*recipe content start*/
-        .p-content-recipe,
-        #h3_1,
-        #h3_2,
-        #h3_3,
-        #h3_4,
-        #h3_5,
-        #h3_6,
-        #h3_7,
-        #h3_8,
-        #h3_9,
-        #h3_10,
-        #h3_11,
-        #h3_12,
-        #h3_13,
-        #h3_14,
-        #h3_15,
-        #h3_16,
-        #p-content1 ul li,
-        #p-content2 ul li,
-        #p-content3 ul li,
-        #p-content4 ul li,
-        #p-content5 ul li,
-        #p-content6 ul li,
-        #p-content7 ul li,
-        #p-content8 ul li,
-        #p-content9 ul li,
-        #p-content10 ul li,
-        #p-content11 ul li,
-        #p-content12 ul li,
-        #p-content13 ul li,
-        #p-content14 ul li,
-        #p-content15 ul li,
-        #p-content16 ul li,
-        #p-content1 ol li,
-        #p-content2 ol li,
-        #p-content3 ol li,
-        #p-content4 ol li,
-        #p-content5 ol li,
-        #p-content6 ol li,
-        #p-content7 ol li,
-        #p-content8 ol li,
-        #p-content9 ol li,
-        #p-content10 ol li,
-        #p-content11 ol li,
-        #p-content12 ol li,
-        #p-content13 ol li,
-        #p-content14 ol li,
-        #p-content15 ol li,
-        #p-content16 ol li {
-            display: none;
-        }
-
-        #sublist1_directions,
-        #sublist2_directions,
-        #sublist3_directions,
-        #sublist4_directions,
-        #sublist5_directions,
-        #sublist6_directions,
-        #sublist7_directions,
-        #sublist8_directions,
-        #sublist9_directions,
-        #sublist10_directions,
-        #sublist11_directions,
-        #sublist12_directions,
-        #sublist13_directions,
-        #sublist14_directions,
-        #sublist15_directions,
-        #sublist16_directions {
-            position: relative;
-            text-align: center;
-            margin: 30px auto 10px auto;
-            width: 100%;
-        }
-
-        /*recipe content end*/
-
-        .cake_images {
-            position: relative;
-            height: 180px;
-            width: 180px;
-            border-radius: 10px;
-        }
-
-        h3 {
-            width: auto;
-            margin: auto auto auto auto;
-        }
-
-        .btn-buy-cake-recipes-open {
-            position: relative;
-            padding: 10px 10px 10px 10px;
-            background-color: aquamarine;
-            border-radius: 10px;
-            border: 1px solid aquamarine;
-        }
-
-        .btn-buy-cake-recipes-close {
-            display: none;
-            padding: 10px 10px 10px 10px;
-            background-color: magenta;
-            border-radius: 10px;
-            border: 1px solid aquamarine;
-        }
-
-        .cake-section div>p {
-            display: none;
-        }
-
-        /*main content end*/
-        /*Header section end*/
-        /*footer section start*/
-
-        footer {
-            text-align: center;
-            background-color: blue;
-            color: white;
-            width: inherit;
-            padding: 10px 0px 10px 0px;
-            width: 100%;
-        }
-
-        footer p {
-            font-size: 10pt;
-            font-weight: 600;
-            padding-top: 10px;
-            padding-bottom: 10px;
-            margin: auto 20px auto 20px;
-        }
-
-        /*footer section end*/
     }
 
-    @media screen and (min-width:301px) and (max-width: 400px) {
-        * {
-            margin: 0;
-            padding: 0;
-        }
-
-        /*Header section start*/
-        header {
-            position: relative;
-            background-color: blue;
-            height: auto;
-            margin: auto auto auto auto;
-            width: 100%;
-        }
-
-        #header-nav {
-            display: block;
-            margin: auto auto auto auto;
-            color: white;
-        }
-
-        #h1 {
-            text-align: center;
-            margin: auto auto auto auto;
-            padding: 0px 0px 0px 0px;
-        }
-
-        /*Navcontent start*/
-        #wrap-nav-content {
-            background-color: black;
-            color: white;
-            margin: 0;
-        }
-
-        nav #h1 {
-            font-size: 20pt;
-            margin: 0px 0px 10px 0px;
-        }
-
-        #list {
-            position: relative;
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-        }
-
-        #list li {
-            width: 250px;
-        }
-
-        .content-navigation {
-            width: 100%;
-            font-size: 20pt;
-            margin: 10px 0px 10px 55px;
-        }
-
-        .content-navigation a {
-            color: white;
-            text-decoration: none;
-        }
-
-        /*Navcontent end*/
-        /*main content start*/
-
-        .h2 {
-            display: block;
-            text-align: center;
-            margin: 10px 0px 10px 0px;
-            font-size: 20pt;
-            font-style: oblique;
-        }
-
-        #cake-contents {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            background-color: #000;
-            margin: auto auto auto auto;
-        }
-
-        .cake-section {
-            width: 250px;
-            text-align: center;
-            font-size: 16pt;
-            border-radius: 10px;
-            border-style: groove;
-            border-top-color: aquamarine;
-            border-bottom-color: aquamarine;
-            border-left-color: aquamarine;
-            border-right-color: aquamarine;
-            margin: 10px 10px 10px 10px;
-        }
-
-        .cake-section>div {
-            background-color: darkgrey;
-            color: #fff;
-            border-radius: 10px;
-            padding-bottom: 10px;
-        }
-
-        figure {
-            position: relative;
-            height: inherit;
-            width: inherit;
-            margin: 0px 20px 0px 20px;
-            padding: 20px 0px 0px 0px;
-
-            overflow: hidden;
-        }
-
-        figcaption {
-            padding-top: 10px;
-            padding-bottom: 10px;
-            font-weight: 600;
-        }
-
-        /*recipe content start*/
-        .p-content-recipe,
-        #h3_1,
-        #h3_2,
-        #h3_3,
-        #h3_4,
-        #h3_5,
-        #h3_6,
-        #h3_7,
-        #h3_8,
-        #h3_9,
-        #h3_10,
-        #h3_11,
-        #h3_12,
-        #h3_13,
-        #h3_14,
-        #h3_15,
-        #h3_16,
-        #p-content1 ul li,
-        #p-content2 ul li,
-        #p-content3 ul li,
-        #p-content4 ul li,
-        #p-content5 ul li,
-        #p-content6 ul li,
-        #p-content7 ul li,
-        #p-content8 ul li,
-        #p-content9 ul li,
-        #p-content10 ul li,
-        #p-content11 ul li,
-        #p-content12 ul li,
-        #p-content13 ul li,
-        #p-content14 ul li,
-        #p-content15 ul li,
-        #p-content16 ul li,
-        #p-content1 ol li,
-        #p-content2 ol li,
-        #p-content3 ol li,
-        #p-content4 ol li,
-        #p-content5 ol li,
-        #p-content6 ol li,
-        #p-content7 ol li,
-        #p-content8 ol li,
-        #p-content9 ol li,
-        #p-content10 ol li,
-        #p-content11 ol li,
-        #p-content12 ol li,
-        #p-content13 ol li,
-        #p-content14 ol li,
-        #p-content15 ol li,
-        #p-content16 ol li {
-            display: none;
-        }
-
-        #sublist1_directions,
-        #sublist2_directions,
-        #sublist3_directions,
-        #sublist4_directions,
-        #sublist5_directions,
-        #sublist6_directions,
-        #sublist7_directions,
-        #sublist8_directions,
-        #sublist9_directions,
-        #sublist10_directions,
-        #sublist11_directions,
-        #sublist12_directions,
-        #sublist13_directions,
-        #sublist14_directions,
-        #sublist15_directions,
-        #sublist16_directions {
-            position: relative;
-            text-align: center;
-            margin: 30px auto 10px auto;
-            width: 100%;
-        }
-
-        /*recipe content end*/
-
-        .cake_images {
-            position: relative;
-            height: 180px;
-            width: 180px;
-            border-radius: 10px;
-        }
-
-        h3 {
-            width: auto;
-            margin: auto auto auto auto;
-        }
-
-        .btn-buy-cake-recipes-open {
-            position: relative;
-            padding: 10px 10px 10px 10px;
-            background-color: aquamarine;
-            border-radius: 10px;
-            border: 1px solid aquamarine;
-        }
-
-        .btn-buy-cake-recipes-close {
-            display: none;
-            padding: 10px 10px 10px 10px;
-            background-color: magenta;
-            border-radius: 10px;
-            border: 1px solid aquamarine;
-        }
-
-        .cake-section div>p {
-            display: none;
-        }
-
-        /*main content end*/
-        /*Header section end*/
-        /*footer section start*/
-
-        footer {
-            text-align: center;
-            background-color: blue;
-            color: white;
-            width: 100%;
-            padding: 10px 0px 10px 0px;
-        }
-
-        footer p {
-            font-weight: 600;
-            width: 220px;
-            padding-top: 10px;
-            padding-bottom: 10px;
-            margin: auto auto auto auto;
-        }
-
-        /*footer section end*/
+    #list li {
+        width: 250px;
     }
 
-    @media screen and (min-width:401px) and (max-width: 500px) {
-        * {
-            margin: 0;
-            padding: 0;
-        }
-
-        /*Header section start*/
-
-        header {
-            background-color: blue;
-            height: 70px;
-            margin: auto auto auto auto;
-            text-align: center;
-        }
-
-        #header-nav {
-            display: block;
-            color: white;
-        }
-
-        #h1 {
-            margin: auto auto auto auto;
-            padding: 15px 0px 0px 0px;
-        }
-
-        /*Header End*/
-
-        #body-content {
-            position: relative;
-        }
-
-        /*Navcontent start*/
-        #wrap-nav-content {
-            background-color: black;
-            color: white;
-            padding: 10px 0px 10px 0px
-        }
-
-        nav h2 {
-            margin-left: 30px;
-            font-size: 20pt;
-        }
-
-        #list {
-            position: relative;
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-        }
-
-        #list li {
-            width: 250px;
-        }
-
-        .content-navigation {
-            width: 170px;
-            font-size: 20pt;
-            margin: 10px 0px 10px 55px;
-        }
-
-        .content-navigation a {
-            color: white;
-            text-decoration: none;
-        }
-
-        /*Navcontent end*/
-        /*main content start*/
-        .h2 {
-            text-align: center;
-            margin: auto auto auto auto;
-            font-size: 2rem;
-            font-style: oblique;
-        }
-
-        #cake-contents {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            background-color: #000;
-            margin: auto auto auto auto;
-        }
-
-        .cake-section {
-            width: 350px;
-            text-align: center;
-            font-size: 16pt;
-            border-radius: 10px;
-            border-style: groove;
-            border-top-color: aquamarine;
-            border-bottom-color: aquamarine;
-            border-left-color: aquamarine;
-            border-right-color: aquamarine;
-            margin: 10px 10px 10px 10px;
-        }
-
-        .cake-section>div {
-            background-color: darkgrey;
-            color: #fff;
-            border-radius: 10px;
-            padding-bottom: 10px;
-        }
-
-        figure {
-            position: relative;
-            height: inherit;
-            width: inherit;
-            margin: 0px 20px 0px 20px;
-            padding: 20px 0px 0px 0px;
-
-            overflow: hidden;
-        }
-
-        figcaption {
-            margin: 0px 20px 0px 20px;
-            padding-top: 10px;
-            padding-bottom: 10px;
-            font-weight: 600;
-        }
-
-        /*recipe content start*/
-        .p-content-recipe,
-        #h3_1,
-        #h3_2,
-        #h3_3,
-        #h3_4,
-        #h3_5,
-        #h3_6,
-        #h3_7,
-        #h3_8,
-        #h3_9,
-        #h3_10,
-        #h3_11,
-        #h3_12,
-        #h3_13,
-        #h3_14,
-        #h3_15,
-        #h3_16,
-        #p-content1 ul li,
-        #p-content2 ul li,
-        #p-content3 ul li,
-        #p-content4 ul li,
-        #p-content5 ul li,
-        #p-content6 ul li,
-        #p-content7 ul li,
-        #p-content8 ul li,
-        #p-content9 ul li,
-        #p-content10 ul li,
-        #p-content11 ul li,
-        #p-content12 ul li,
-        #p-content13 ul li,
-        #p-content14 ul li,
-        #p-content15 ul li,
-        #p-content16 ul li,
-        #p-content1 ol li,
-        #p-content2 ol li,
-        #p-content3 ol li,
-        #p-content4 ol li,
-        #p-content5 ol li,
-        #p-content6 ol li,
-        #p-content7 ol li,
-        #p-content8 ol li,
-        #p-content9 ol li,
-        #p-content10 ol li,
-        #p-content11 ol li,
-        #p-content12 ol li,
-        #p-content13 ol li,
-        #p-content14 ol li,
-        #p-content15 ol li,
-        #p-content16 ol li {
-            display: none;
-        }
-
-        #sublist1_directions,
-        #sublist2_directions,
-        #sublist3_directions,
-        #sublist4_directions,
-        #sublist5_directions,
-        #sublist6_directions,
-        #sublist7_directions,
-        #sublist8_directions,
-        #sublist9_directions,
-        #sublist10_directions,
-        #sublist11_directions,
-        #sublist12_directions,
-        #sublist13_directions,
-        #sublist14_directions,
-        #sublist15_directions,
-        #sublist16_directions {
-            position: relative;
-            text-align: center;
-            margin: 30px auto 10px auto;
-            width: 100%;
-        }
-
-        /*recipe content end*/
-
-        .cake_images {
-            position: relative;
-            height: 300px;
-            width: 300px;
-            border-radius: 10px;
-        }
-
-        h3 {
-            width: auto;
-            margin: auto auto auto auto;
-        }
-
-        .btn-buy-cake-recipes-open {
-            position: relative;
-            padding: 10px 10px 10px 10px;
-            background-color: aquamarine;
-            border-radius: 10px;
-            border: 1px solid aquamarine;
-        }
-
-        .btn-buy-cake-recipes-close {
-            display: none;
-            padding: 10px 10px 10px 10px;
-            background-color: magenta;
-            border-radius: 10px;
-            border: 1px solid aquamarine;
-        }
-
-        .cake-section div>p {
-            display: none;
-        }
-
-        /*main content end*/
-        /*Header section end*/
-        /*footer section start*/
-
-        footer {
-            text-align: center;
-            background-color: blue;
-            color: white;
-            padding: 10px 0px 10px 0px;
-        }
-
-        footer p {
-            width: auto;
-            font-weight: 600;
-            font-size: 15pt;
-            margin: auto 68px auto 68px;
-            padding-bottom: 10px;
-        }
-
-        /*footer section end*/
+    .h2 {
+        display: block;
+        text-align: center;
+        margin: 10px auto 10px auto;
+        font-size: 1.5rem;
+        font-style: oblique;
     }
 
-    @media screen and (min-width:501px) and (max-width: 600px) {
-        * {
-            margin: 0;
-            padding: 0;
-        }
-
-        /*Header section start*/
-
-        header {
-            background-color: blue;
-            height: 70px;
-            margin: auto auto auto auto;
-            text-align: center;
-        }
-
-        #header-nav {
-            display: block;
-            color: white;
-        }
-
-        #h1 {
-            margin: auto auto auto auto;
-            padding: 15px 0px 0px 0px;
-        }
-
-        /*Header End*/
-
-        #body-content {
-            position: relative;
-        }
-
-        /*Navcontent start*/
-        #wrap-nav-content {
-            background-color: black;
-            color: white;
-            padding: 10px 0px 10px 0px
-        }
-
-        nav h2 {
-            margin-left: 30px;
-            font-size: 20pt;
-        }
-
-        #list {
-            position: relative;
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-        }
-
-        #list li {
-            width: 250px;
-        }
-
-        .content-navigation {
-            width: 170px;
-            font-size: 20pt;
-            margin: 10px 0px 10px 55px;
-        }
-
-        .content-navigation a {
-            color: white;
-            text-decoration: none;
-        }
-
-        .content-navigation a:hover {
-            color: blue;
-        }
-
-        /*Navcontent end*/
-        /*main content start*/
-        .h2 {
-            text-align: center;
-            margin: auto auto auto auto;
-            font-size: 2rem;
-            font-style: oblique;
-        }
-
-        #cake-contents {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            background-color: #000;
-            margin: auto auto auto auto;
-        }
-
-        .cake-section {
-            width: 400px;
-            text-align: center;
-            font-size: 16pt;
-            border-radius: 10px;
-            border-style: groove;
-            border-top-color: aquamarine;
-            border-bottom-color: aquamarine;
-            border-left-color: aquamarine;
-            border-right-color: aquamarine;
-            margin: 10px 10px 10px 10px;
-        }
-
-        .cake-section>div {
-            background-color: darkgrey;
-            color: #fff;
-            border-radius: 10px;
-            padding-bottom: 10px;
-        }
-
-        figure {
-            position: relative;
-            height: inherit;
-            width: inherit;
-            margin: 0px 20px 0px 20px;
-            padding: 20px 0px 0px 0px;
-
-            overflow: hidden;
-        }
-
-        figcaption {
-            margin: 0px 20px 0px 20px;
-            padding-top: 10px;
-            padding-bottom: 10px;
-            font-weight: 600;
-        }
-
-        /*recipe content start*/
-        .p-content-recipe,
-        #h3_1,
-        #h3_2,
-        #h3_3,
-        #h3_4,
-        #h3_5,
-        #h3_6,
-        #h3_7,
-        #h3_8,
-        #h3_9,
-        #h3_10,
-        #h3_11,
-        #h3_12,
-        #h3_13,
-        #h3_14,
-        #h3_15,
-        #h3_16,
-        #p-content1 ul li,
-        #p-content2 ul li,
-        #p-content3 ul li,
-        #p-content4 ul li,
-        #p-content5 ul li,
-        #p-content6 ul li,
-        #p-content7 ul li,
-        #p-content8 ul li,
-        #p-content9 ul li,
-        #p-content10 ul li,
-        #p-content11 ul li,
-        #p-content12 ul li,
-        #p-content13 ul li,
-        #p-content14 ul li,
-        #p-content15 ul li,
-        #p-content16 ul li,
-        #p-content1 ol li,
-        #p-content2 ol li,
-        #p-content3 ol li,
-        #p-content4 ol li,
-        #p-content5 ol li,
-        #p-content6 ol li,
-        #p-content7 ol li,
-        #p-content8 ol li,
-        #p-content9 ol li,
-        #p-content10 ol li,
-        #p-content11 ol li,
-        #p-content12 ol li,
-        #p-content13 ol li,
-        #p-content14 ol li,
-        #p-content15 ol li,
-        #p-content16 ol li {
-            display: none;
-        }
-
-        #sublist1_directions,
-        #sublist2_directions,
-        #sublist3_directions,
-        #sublist4_directions,
-        #sublist5_directions,
-        #sublist6_directions,
-        #sublist7_directions,
-        #sublist8_directions,
-        #sublist9_directions,
-        #sublist10_directions,
-        #sublist11_directions,
-        #sublist12_directions,
-        #sublist13_directions,
-        #sublist14_directions,
-        #sublist15_directions,
-        #sublist16_directions {
-            position: relative;
-            text-align: center;
-            margin: 30px auto 10px auto;
-            width: 100%;
-        }
-
-        /*recipe content end*/
-
-        .cake_images {
-            position: relative;
-            height: 350px;
-            width: 350px;
-            border-radius: 10px;
-        }
-
-        h3 {
-            width: auto;
-            margin: auto auto auto auto;
-        }
-
-        .btn-buy-cake-recipes-open {
-            position: relative;
-            padding: 10px 10px 10px 10px;
-            background-color: aquamarine;
-            border-radius: 10px;
-            border: 1px solid aquamarine;
-        }
-
-        .btn-buy-cake-recipes-close {
-            display: none;
-            padding: 10px 10px 10px 10px;
-            background-color: magenta;
-            border-radius: 10px;
-            border: 1px solid aquamarine;
-        }
-
-        .cake-section div>p {
-            display: none;
-        }
-
-        /*main content end*/
-        /*Header section end*/
-        /*footer section start*/
-        footer {
-            text-align: center;
-            background-color: blue;
-            color: white;
-            padding: 10px 0px 10px 0px;
-        }
-
-        footer p {
-            width: auto;
-            font-weight: 600;
-            font-size: 15pt;
-            margin: auto 68px auto 68px;
-            padding-bottom: 10px;
-        }
-
-        /*footer section end*/
+    .cake-section {
+        width: 350px;
     }
 
-    @media screen and (min-width:601px) and (max-width: 700px) {
-        * {
-            margin: 0;
-            padding: 0;
-        }
+    /*recipe content end*/
 
-        /*Header section start*/
-
-        header {
-            background-color: blue;
-            height: 70px;
-            margin: auto auto auto auto;
-            text-align: center;
-        }
-
-        #header-nav {
-            display: block;
-            color: white;
-        }
-
-        #h1 {
-            margin: auto auto auto auto;
-            padding: 15px 0px 0px 0px;
-        }
-
-        /*Header End*/
-
-        #body-content {
-            position: relative;
-        }
-
-        /*Navcontent start*/
-        #wrap-nav-content {
-            background-color: black;
-            color: white;
-            padding: 10px 0px 10px 0px
-        }
-
-        nav h2 {
-            margin-left: 30px;
-            font-size: 20pt;
-        }
-
-        #list {
-            position: relative;
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-        }
-
-        #list li {
-            width: 250px;
-        }
-
-        .content-navigation {
-            width: 170px;
-            font-size: 20pt;
-            margin: 10px 0px 10px 55px;
-        }
-
-        .content-navigation a {
-            color: white;
-            text-decoration: none;
-        }
-
-        .content-navigation a:hover {
-            color: blue;
-        }
-
-        /*Navcontent end*/
-        /*main content start*/
-        .h2 {
-            text-align: center;
-            margin: auto auto auto auto;
-            font-size: 2rem;
-            font-style: oblique;
-        }
-
-        #cake-contents {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            background-color: #000;
-            margin: auto auto auto auto;
-        }
-
-        .cake-section {
-            width: 450px;
-            text-align: center;
-            font-size: 16pt;
-            border-radius: 10px;
-            border-style: groove;
-            border-top-color: aquamarine;
-            border-bottom-color: aquamarine;
-            border-left-color: aquamarine;
-            border-right-color: aquamarine;
-            margin: 10px 10px 10px 10px;
-        }
-
-        .cake-section>div {
-            background-color: darkgrey;
-            color: #fff;
-            border-radius: 10px;
-            padding-bottom: 10px;
-        }
-
-        figure {
-            position: relative;
-            height: inherit;
-            width: inherit;
-            margin: 0px 20px 0px 20px;
-            padding: 20px 0px 0px 0px;
-
-            overflow: hidden;
-        }
-
-        figcaption {
-            margin: 0px 20px 0px 20px;
-            padding-top: 10px;
-            padding-bottom: 10px;
-            font-weight: 600;
-        }
-
-        /*recipe content start*/
-        .p-content-recipe,
-        #h3_1,
-        #h3_2,
-        #h3_3,
-        #h3_4,
-        #h3_5,
-        #h3_6,
-        #h3_7,
-        #h3_8,
-        #h3_9,
-        #h3_10,
-        #h3_11,
-        #h3_12,
-        #h3_13,
-        #h3_14,
-        #h3_15,
-        #h3_16,
-        #p-content1 ul li,
-        #p-content2 ul li,
-        #p-content3 ul li,
-        #p-content4 ul li,
-        #p-content5 ul li,
-        #p-content6 ul li,
-        #p-content7 ul li,
-        #p-content8 ul li,
-        #p-content9 ul li,
-        #p-content10 ul li,
-        #p-content11 ul li,
-        #p-content12 ul li,
-        #p-content13 ul li,
-        #p-content14 ul li,
-        #p-content15 ul li,
-        #p-content16 ul li,
-        #p-content1 ol li,
-        #p-content2 ol li,
-        #p-content3 ol li,
-        #p-content4 ol li,
-        #p-content5 ol li,
-        #p-content6 ol li,
-        #p-content7 ol li,
-        #p-content8 ol li,
-        #p-content9 ol li,
-        #p-content10 ol li,
-        #p-content11 ol li,
-        #p-content12 ol li,
-        #p-content13 ol li,
-        #p-content14 ol li,
-        #p-content15 ol li,
-        #p-content16 ol li {
-            display: none;
-        }
-
-        #sublist1_directions,
-        #sublist2_directions,
-        #sublist3_directions,
-        #sublist4_directions,
-        #sublist5_directions,
-        #sublist6_directions,
-        #sublist7_directions,
-        #sublist8_directions,
-        #sublist9_directions,
-        #sublist10_directions,
-        #sublist11_directions,
-        #sublist12_directions,
-        #sublist13_directions,
-        #sublist14_directions,
-        #sublist15_directions,
-        #sublist16_directions {
-            position: relative;
-            text-align: center;
-            margin: 30px auto 10px auto;
-            width: 100%;
-        }
-
-        /*recipe content end*/
-
-        .cake_images {
-            position: relative;
-            height: 400px;
-            width: 400px;
-            border-radius: 10px;
-        }
-
-        h3 {
-            width: auto;
-            margin: auto auto auto auto;
-        }
-
-        .btn-buy-cake-recipes-open {
-            position: relative;
-            padding: 10px 10px 10px 10px;
-            background-color: aquamarine;
-            border-radius: 10px;
-            border: 1px solid aquamarine;
-        }
-
-        .btn-buy-cake-recipes-close {
-            display: none;
-            padding: 10px 10px 10px 10px;
-            background-color: magenta;
-            border-radius: 10px;
-            border: 1px solid aquamarine;
-        }
-
-        .cake-section div>p {
-            display: none;
-        }
-
-        /*main content end*/
-        /*Header section end*/
-        /*footer section start*/
-
-        footer {
-            text-align: center;
-            background-color: blue;
-            color: white;
-            padding: 10px 0px 10px 0px;
-        }
-
-        footer p {
-            width: auto;
-            font-weight: 600;
-            font-size: 15pt;
-            margin: auto 68px auto 68px;
-            padding-bottom: 10px;
-        }
-
-        /*footer section end*/
+    .cake_images {
+        position: relative;
+        height: 300px;
+        width: 300px;
+        border-radius: 10px;
     }
 
-    @media screen and (min-width:701px) and (max-width: 800px) {
-        * {
-            margin: 0;
-            padding: 0;
-        }
-
-        /*Header section start*/
-        header {
-            background-color: blue;
-            height: 50px;
-            margin: auto auto auto auto;
-        }
-
-        #header-nav {
-            display: flex;
-            color: white;
-        }
-
-        #h1 {
-            margin: auto auto auto auto;
-            padding: 10px 0px 0px 0px;
-            /*list-style: inside decimal;*/
-        }
-
-        /*Navcontent start*/
-        #wrap-nav-content {
-            background-color: black;
-            color: white;
-            padding: 10px 0px 10px 0px
-        }
-
-        nav h2 {
-            margin-left: 30px;
-            font-size: 20pt;
-        }
-
-        #list {
-            position: relative;
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-        }
-
-        #list li {
-            width: 250px;
-        }
-
-        .content-navigation {
-            width: 170px;
-            font-size: 20pt;
-            margin: 10px 0px 10px 55px;
-        }
-
-        .content-navigation a {
-            color: white;
-            text-decoration: none;
-        }
-
-        .content-navigation a:hover {
-            color: blue;
-        }
-
-        /*Navcontent end*/
-
-        /*main content start*/
-
-        .h2 {
-            display: block;
-            text-align: center;
-            margin: 10px auto 10px auto;
-            font-size: 2rem;
-            font-style: oblique;
-        }
-
-        #cake-contents {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            background-color: #000;
-        }
-
-        .cake-section {
-            width: 550px;
-            text-align: center;
-            font-size: 16pt;
-            border-radius: 10px;
-            border-style: groove;
-            border-top-color: aquamarine;
-            border-bottom-color: aquamarine;
-            border-left-color: aquamarine;
-            border-right-color: aquamarine;
-            margin: 10px 10px 10px 10px;
-
-
-        }
-
-        .cake-section>div {
-            background-color: darkgrey;
-            color: #fff;
-            border-radius: 10px;
-            padding-bottom: 10px;
-        }
-
-        figure {
-            position: relative;
-            height: inherit;
-            width: inherit;
-            margin: 0px 20px 0px 20px;
-            padding: 20px 0px 0px 0px;
-
-            overflow: hidden;
-        }
-
-        figcaption {
-            padding-top: 10px;
-            padding-bottom: 10px;
-            font-weight: 600;
-        }
-
-        /*recipe content start*/
-        .p-content-recipe,
-        #h3_1,
-        #h3_2,
-        #h3_3,
-        #h3_4,
-        #h3_5,
-        #h3_6,
-        #h3_7,
-        #h3_8,
-        #h3_9,
-        #h3_10,
-        #h3_11,
-        #h3_12,
-        #h3_13,
-        #h3_14,
-        #h3_15,
-        #h3_16,
-        #p-content1 ul li,
-        #p-content2 ul li,
-        #p-content3 ul li,
-        #p-content4 ul li,
-        #p-content5 ul li,
-        #p-content6 ul li,
-        #p-content7 ul li,
-        #p-content8 ul li,
-        #p-content9 ul li,
-        #p-content10 ul li,
-        #p-content11 ul li,
-        #p-content12 ul li,
-        #p-content13 ul li,
-        #p-content14 ul li,
-        #p-content15 ul li,
-        #p-content16 ul li,
-        #p-content1 ol li,
-        #p-content2 ol li,
-        #p-content3 ol li,
-        #p-content4 ol li,
-        #p-content5 ol li,
-        #p-content6 ol li,
-        #p-content7 ol li,
-        #p-content8 ol li,
-        #p-content9 ol li,
-        #p-content10 ol li,
-        #p-content11 ol li,
-        #p-content12 ol li,
-        #p-content13 ol li,
-        #p-content14 ol li,
-        #p-content15 ol li,
-        #p-content16 ol li {
-            display: none;
-        }
-
-        #sublist1_directions,
-        #sublist2_directions,
-        #sublist3_directions,
-        #sublist4_directions,
-        #sublist5_directions,
-        #sublist6_directions,
-        #sublist7_directions,
-        #sublist8_directions,
-        #sublist9_directions,
-        #sublist10_directions,
-        #sublist11_directions,
-        #sublist12_directions,
-        #sublist13_directions,
-        #sublist14_directions,
-        #sublist15_directions,
-        #sublist16_directions {
-            position: relative;
-            text-align: center;
-            margin: 30px auto 10px auto;
-            width: 100%;
-        }
-
-        /*recipe content end*/
-
-        .cake_images {
-            position: relative;
-            height: 450px;
-            width: 450px;
-            border-radius: 10px;
-        }
-
-        h3 {
-            width: auto;
-            margin: auto auto auto auto;
-        }
-
-        .btn-buy-cake-recipes-open {
-            position: relative;
-            padding: 10px 10px 10px 10px;
-            background-color: aquamarine;
-            border-radius: 10px;
-            border: 1px solid aquamarine;
-        }
-
-        .btn-buy-cake-recipes-close {
-            display: none;
-            padding: 10px 10px 10px 10px;
-            background-color: magenta;
-            border-radius: 10px;
-            border: 1px solid aquamarine;
-        }
-
-        .cake-section div>p {
-            display: none;
-        }
-
-        /*main content end*/
-        /*Header section end*/
-
-        /*footer section start*/
-        footer {
-            text-align: center;
-            background-color: blue;
-            color: white;
-            padding: 10px 0px 10px 0px;
-        }
-
-        footer p {
-            font-weight: 600;
-
-        }
-
-        /*footer section end*/
+    .cake-section div>p {
+        display: none;
     }
 
-    @media screen and (min-width:801px) and (max-width: 900px) {
-        * {
-            margin: 0;
-            padding: 0;
-        }
+    /*main content end*/
+}
 
-        /*Header section start*/
-        header {
-            background-color: blue;
-            height: 50px;
-            margin: auto auto auto auto;
-        }
-
-        #header-nav {
-            display: flex;
-            color: white;
-        }
-
-        #h1 {
-            margin: auto auto auto auto;
-            padding: 10px 0px 0px 0px;
-        }
-
-        /*Navcontent start*/
-        #wrap-nav-content {
-            background-color: black;
-            color: white;
-            padding: 10px 0px 10px 0px
-        }
-
-        nav h2 {
-            margin-left: 30px;
-            font-size: 20pt;
-        }
-
-        #list {
-            position: relative;
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-        }
-
-        #list li {
-            width: 250px;
-        }
-
-        .content-navigation {
-            width: 170px;
-            font-size: 20pt;
-            margin: 10px 0px 10px 55px;
-        }
-
-        .content-navigation a {
-            color: white;
-            text-decoration: none;
-        }
-
-        .content-navigation a:hover {
-            color: blue;
-        }
-
-        /*Navcontent end*/
-        /*main content start*/
-
-        .h2 {
-            display: block;
-            text-align: center;
-            margin: 10px auto 10px auto;
-            font-size: 2rem;
-            font-style: oblique;
-        }
-
-        #cake-contents {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            background-color: #000;
-        }
-
-        .cake-section {
-            width: 650px;
-            text-align: center;
-            font-size: 16pt;
-            border-radius: 10px;
-            border-style: groove;
-            border-top-color: aquamarine;
-            border-bottom-color: aquamarine;
-            border-left-color: aquamarine;
-            border-right-color: aquamarine;
-            margin: 10px 10px 10px 10px;
-        }
-
-        .cake-section>div {
-            background-color: darkgrey;
-            color: #fff;
-            border-radius: 10px;
-            padding-bottom: 10px;
-        }
-
-        figure {
-            position: relative;
-            height: inherit;
-            width: inherit;
-            margin: 0px 20px 0px 20px;
-            padding: 20px 0px 0px 0px;
-            overflow: hidden;
-        }
-
-        figcaption {
-            padding-top: 10px;
-            padding-bottom: 10px;
-            font-weight: 600;
-        }
-
-        /*recipe content start*/
-        .p-content-recipe,
-        #h3_1,
-        #h3_2,
-        #h3_3,
-        #h3_4,
-        #h3_5,
-        #h3_6,
-        #h3_7,
-        #h3_8,
-        #h3_9,
-        #h3_10,
-        #h3_11,
-        #h3_12,
-        #h3_13,
-        #h3_14,
-        #h3_15,
-        #h3_16,
-        #p-content1 ul li,
-        #p-content2 ul li,
-        #p-content3 ul li,
-        #p-content4 ul li,
-        #p-content5 ul li,
-        #p-content6 ul li,
-        #p-content7 ul li,
-        #p-content8 ul li,
-        #p-content9 ul li,
-        #p-content10 ul li,
-        #p-content11 ul li,
-        #p-content12 ul li,
-        #p-content13 ul li,
-        #p-content14 ul li,
-        #p-content15 ul li,
-        #p-content16 ul li,
-        #p-content1 ol li,
-        #p-content2 ol li,
-        #p-content3 ol li,
-        #p-content4 ol li,
-        #p-content5 ol li,
-        #p-content6 ol li,
-        #p-content7 ol li,
-        #p-content8 ol li,
-        #p-content9 ol li,
-        #p-content10 ol li,
-        #p-content11 ol li,
-        #p-content12 ol li,
-        #p-content13 ol li,
-        #p-content14 ol li,
-        #p-content15 ol li,
-        #p-content16 ol li {
-            display: none;
-        }
-
-        #sublist1_directions,
-        #sublist2_directions,
-        #sublist3_directions,
-        #sublist4_directions,
-        #sublist5_directions,
-        #sublist6_directions,
-        #sublist7_directions,
-        #sublist8_directions,
-        #sublist9_directions,
-        #sublist10_directions,
-        #sublist11_directions,
-        #sublist12_directions,
-        #sublist13_directions,
-        #sublist14_directions,
-        #sublist15_directions,
-        #sublist16_directions {
-            position: relative;
-            text-align: center;
-            margin: 30px auto 10px auto;
-            width: 100%;
-        }
-
-        /*recipe content end*/
-
-        .cake_images {
-            position: relative;
-            height: 550px;
-            width: 550px;
-            border-radius: 10px;
-        }
-
-        h3 {
-            width: auto;
-            margin: auto auto auto auto;
-        }
-
-        .btn-buy-cake-recipes-open {
-            position: relative;
-            padding: 10px 10px 10px 10px;
-            background-color: aquamarine;
-            border-radius: 10px;
-            border: 1px solid aquamarine;
-        }
-
-        .btn-buy-cake-recipes-close {
-            display: none;
-            padding: 10px 10px 10px 10px;
-            background-color: magenta;
-            border-radius: 10px;
-            border: 1px solid aquamarine;
-        }
-
-        .cake-section div>p {
-            display: none;
-        }
-
-        /*main content end*/
-
-        /*Header section end*/
-
-        /*footer section start*/
-        footer {
-            text-align: center;
-            background-color: blue;
-            color: white;
-            padding: 10px 0px 10px 0px;
-        }
-
-        footer p {
-            font-weight: 600;
-
-        }
-
-        /*footer section end*/
+@media screen and (min-width:501px) and (max-width: 600px) {
+    #header-nav {
+        display: block;
     }
 
-    @media screen and (min-width:901px) {
-        * {
-            margin: 0;
-            padding: 0;
-        }
-
-        /*Header section start*/
-
-        header {
-            background-color: blue;
-            height: 50px;
-            margin: auto auto auto auto;
-        }
-
-        #header-nav {
-            display: flex;
-            color: white;
-        }
-
-        #h1 {
-            margin: auto auto auto auto;
-            padding: 10px 0px 0px 0px;
-        }
-
-        #search-form {
-            display: flex;
-            flex: wrap;
-            margin: auto 200px auto auto;
-            height: 20px;
-        }
-
-        #Search {
-            width: 260px;
-            margin: -4px auto auto auto;
-
-            padding: 5px 10px 5px 10px;
-            border-radius: 20px;
-        }
-
-        #Search:focus {
-            color: blue;
-            background-color: aliceblue;
-        }
-
-        #submit-btn {
-            position: relative;
-            right: -10px;
-            width: 80px;
-            height: auto;
-            margin: -4px -10px auto auto;
-            border-radius: 20px;
-            padding: 5px 10px 5px 10px;
-        }
-
-        #select-colors {
-            display: none;
-            /*block*/
-            position: relative;
-            height: 30px;
-            width: 120px;
-            text-align: center;
-            margin: auto 30px auto auto;
-        }
-
-        /*Navcontent start*/
-        #wrap-nav-content {
-            background-color: black;
-            color: white;
-            padding: 10px 0px 10px 0px
-        }
-
-        nav h2 {
-            margin-left: 30px;
-            font-size: 20pt;
-        }
-
-        #list {
-            position: relative;
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-        }
-
-        #list li {
-            width: 250px;
-        }
-
-        .content-navigation {
-            width: 170px;
-            font-size: 20pt;
-            margin: 10px 0px 10px 55px;
-        }
-
-        .content-navigation a {
-            color: white;
-            text-decoration: none;
-        }
-
-        .content-navigation a:hover {
-            color: blue;
-        }
-
-        /*Navcontent end*/
-        /*main content start*/
-        .h2 {
-            display: block;
-            text-align: center;
-            margin: 10px auto 10px auto;
-            font-size: 2rem;
-            font-style: oblique;
-        }
-
-        #cake-contents {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            background-color: #000;
-        }
-
-        .cake-section {
-            width: 700px;
-            text-align: center;
-            font-size: 16pt;
-            border-radius: 10px;
-            border-style: groove;
-            border-top-color: aquamarine;
-            border-bottom-color: aquamarine;
-            border-left-color: aquamarine;
-            border-right-color: aquamarine;
-            margin: 10px 10px 10px 10px;
-        }
-
-        .cake-section>div {
-            background-color: darkgrey;
-            color: #fff;
-            border-radius: 10px;
-            padding-bottom: 10px;
-        }
-
-        figure {
-            position: relative;
-            height: inherit;
-            width: inherit;
-            margin: 0px 20px 0px 20px;
-            padding: 20px 0px 0px 0px;
-
-            overflow: hidden;
-        }
-
-        figcaption {
-            padding-top: 10px;
-            padding-bottom: 10px;
-            font-weight: 600;
-        }
-
-        /*recipe content start*/
-        .p-content-recipe,
-        #h3_1,
-        #h3_2,
-        #h3_3,
-        #h3_4,
-        #h3_5,
-        #h3_6,
-        #h3_7,
-        #h3_8,
-        #h3_9,
-        #h3_10,
-        #h3_11,
-        #h3_12,
-        #h3_13,
-        #h3_14,
-        #h3_15,
-        #h3_16,
-        #p-content1 ul li,
-        #p-content2 ul li,
-        #p-content3 ul li,
-        #p-content4 ul li,
-        #p-content5 ul li,
-        #p-content6 ul li,
-        #p-content7 ul li,
-        #p-content8 ul li,
-        #p-content9 ul li,
-        #p-content10 ul li,
-        #p-content11 ul li,
-        #p-content12 ul li,
-        #p-content13 ul li,
-        #p-content14 ul li,
-        #p-content15 ul li,
-        #p-content16 ul li,
-        #p-content1 ol li,
-        #p-content2 ol li,
-        #p-content3 ol li,
-        #p-content4 ol li,
-        #p-content5 ol li,
-        #p-content6 ol li,
-        #p-content7 ol li,
-        #p-content8 ol li,
-        #p-content9 ol li,
-        #p-content10 ol li,
-        #p-content11 ol li,
-        #p-content12 ol li,
-        #p-content13 ol li,
-        #p-content14 ol li,
-        #p-content15 ol li,
-        #p-content16 ol li {
-            display: none;
-        }
-
-        #sublist1_directions,
-        #sublist2_directions,
-        #sublist3_directions,
-        #sublist4_directions,
-        #sublist5_directions,
-        #sublist6_directions,
-        #sublist7_directions,
-        #sublist8_directions,
-        #sublist9_directions,
-        #sublist10_directions,
-        #sublist11_directions,
-        #sublist12_directions,
-        #sublist13_directions,
-        #sublist14_directions,
-        #sublist15_directions,
-        #sublist16_directions {
-            position: relative;
-            text-align: center;
-            margin: 30px auto 10px auto;
-            width: 100%;
-        }
-
-        /*recipe content end*/
-        .cake_images {
-            position: relative;
-            height: 650px;
-            width: 650px;
-            border-radius: 10px;
-        }
-
-        h3 {
-            width: auto;
-            margin: auto auto auto auto;
-        }
-
-        .btn-buy-cake-recipes-open {
-            position: relative;
-            padding: 10px 10px 10px 10px;
-            background-color: aquamarine;
-            border-radius: 10px;
-            border: 1px solid aquamarine;
-        }
-
-        .btn-buy-cake-recipes-open:hover {
-            position: relative;
-            padding: 10px 10px 10px 10px;
-            background-color: aquamarine;
-            border-radius: 10px;
-            border: 1px solid magenta;
-            box-shadow: 0px 0px 15px 0.5px magenta;
-        }
-
-        .btn-buy-cake-recipes-close {
-            display: none;
-            padding: 10px 10px 10px 10px;
-            background-color: magenta;
-            border-radius: 10px;
-            border: 1px solid aquamarine;
-        }
-
-        .btn-buy-cake-recipes-close:hover {
-            padding: 10px 10px 10px 10px;
-            background-color: aquamarine;
-            border-radius: 10px;
-            border: 1px solid magenta;
-            box-shadow: 0px 0px 15px 0.5px magenta;
-        }
-
-        .cake-section div>p {
-            display: none;
-        }
-
-        /*main content end*/
-        /*Header section end*/
-        /*footer section start*/
-        footer {
-            text-align: center;
-            background-color: blue;
-            color: white;
-            padding: 10px 0px 10px 0px;
-        }
-
-        footer p {
-            font-weight: 600;
-        }
-
-        /*footer section end*/
+    /*Navcontent start*/
+    .content-navigation a:link {
+        color: white;
     }
+
+    /*Navcontent end*/
+    /*main content start*/
+    #wrap-nav-content {
+        text-align: center;
+        margin: auto auto;
+    }
+
+    #list {
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+
+    #list li {
+        width: 250px;
+    }
+
+    .h2 {
+        display: block;
+        text-align: center;
+        margin: 10px auto 10px auto;
+        font-size: 1.5rem;
+        font-style: oblique;
+    }
+
+    .cake-section {
+        width: 400px;
+    }
+
+    /*recipe content end*/
+    .cake_images {
+        position: relative;
+        height: 350px;
+        width: 350px;
+        border-radius: 10px;
+    }
+
+    .cake-section div>p {
+        display: none;
+    }
+
+    /*main content end*/
+}
+
+@media screen and (min-width:601px) and (max-width: 700px) {
+    #header-nav {
+        display: block;
+    }
+
+    /*Navcontent start*/
+    .content-navigation a:link {
+        color: white;
+    }
+
+    /*Navcontent end*/
+    /*main content start*/
+    #wrap-nav-content {
+        text-align: center;
+        margin: auto auto;
+    }
+
+    #list {
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+
+    #list li {
+        width: 250px;
+    }
+
+    .h2 {
+        display: block;
+        text-align: center;
+        margin: 10px auto 10px auto;
+        font-size: 2rem;
+        font-style: oblique;
+    }
+
+    .cake-section {
+        width: 450px;
+
+    }
+
+    /*recipe content end*/
+
+    .cake_images {
+        position: relative;
+        height: 400px;
+        width: 400px;
+        border-radius: 10px;
+    }
+
+    .cake-section div>p {
+        display: none;
+    }
+
+    /*main content end*/
+}
+
+@media screen and (min-width:701px) and (max-width: 800px) {
+
+    /*Navcontent start*/
+    .content-navigation a:hover {
+        color: white;
+    }
+
+    /*Navcontent end*/
+    /*main content start*/
+    #wrap-nav-content {
+        text-align: center;
+        margin: auto auto;
+    }
+
+    #list {
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+
+    #list li {
+        width: 250px;
+    }
+
+    .h2 {
+        display: block;
+        text-align: center;
+        margin: 10px auto 10px auto;
+        font-size: 2rem;
+        font-style: oblique;
+    }
+
+    .cake-section {
+        width: 550px;
+    }
+
+    /*recipe content end*/
+
+    .cake_images {
+        position: relative;
+        height: 450px;
+        width: 450px;
+        border-radius: 10px;
+    }
+
+    .cake-section div>p {
+        display: none;
+    }
+
+    /*main content end*/
+}
+
+@media screen and (min-width:801px) and (max-width: 900px) {
+
+    /*Navcontent start*/
+    .content-navigation a:hover {
+        color: white;
+    }
+
+    /*Navcontent end*/
+    /*main content start*/
+    #wrap-nav-content {
+        text-align: center;
+        margin: auto auto;
+    }
+
+    #list {
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+
+    #list li {
+        width: 250px;
+    }
+
+    .h2 {
+        display: block;
+        text-align: center;
+        margin: 10px auto 10px auto;
+        font-size: 2rem;
+        font-style: oblique;
+    }
+
+    .cake-section {
+        width: 650px;
+    }
+
+    /*recipe content end*/
+
+    .cake_images {
+        position: relative;
+        height: 550px;
+        width: 550px;
+        border-radius: 10px;
+    }
+
+    .cake-section div>p {
+        display: none;
+    }
+
+    /*main content end*/
+}
