@@ -10,7 +10,7 @@ function view_item1A() {
         /*background properties end*/
 
         /*margin properties start*/
-        let _margin_1A_AutoCustom = "10px auto 10px auto";
+        let _margin_1A_AutoCustom = "auto auto 10px auto";
         /*margin end*/
 
         /*display properties start*/
@@ -203,7 +203,7 @@ function view_item1B() {
         /*background properties end*/
 
         /*margin properties start*/
-        let _margin_1B_AutoCustom = "10px auto 10px auto";
+        let _margin_1B_AutoCustom = "auto auto 10px auto";
         /*margin end*/
 
         /*display properties start*/
@@ -394,7 +394,7 @@ function view_item1C() {
         /*background properties end*/
 
         /*margin properties start*/
-        let _margin_1C_AutoCustom = "10px auto 10px auto";
+        let _margin_1C_AutoCustom = "auto auto 10px auto";
         /*margin end*/
 
         /*display properties start*/
@@ -580,7 +580,7 @@ function view_item1D() {
         /*background properties end*/
 
         /*margin properties start*/
-        let _margin_1D_AutoCustom = "10px auto 10px auto";
+        let _margin_1D_AutoCustom = "auto auto 10px auto";
         /*margin end*/
 
         /*display properties start*/
@@ -744,7 +744,7 @@ function view_item1E() {
         /*background properties end*/
 
         /*margin properties start*/
-        let _margin_1E_AutoCustom = "10px auto 10px auto";
+        let _margin_1E_AutoCustom = "auto auto 10px auto";
         /*margin end*/
 
         /*display properties start*/
@@ -932,7 +932,7 @@ function view_item1F() {
         /*background properties end*/
 
         /*margin properties start*/
-        let _margin_1F_AutoCustom = "10px auto 10px auto";
+        let _margin_1F_AutoCustom = "auto auto 10px auto";
         /*margin end*/
 
         /*display properties start*/
@@ -1107,7 +1107,7 @@ function view_item1G() {
         /*background properties end*/
 
         /*margin properties start*/
-        let _margin_1G_AutoCustom = "10px auto 10px auto";
+        let _margin_1G_AutoCustom = "auto auto 10px auto";
         /*margin end*/
 
         /*display properties start*/
@@ -1304,7 +1304,7 @@ function view_item1H() {
         /*background properties end*/
 
         /*margin properties start*/
-        let _margin_1H_AutoCustom = "10px auto 10px auto";
+        let _margin_1H_AutoCustom = "auto auto 10px auto";
         /*margin end*/
 
         /*display properties start*/
@@ -1495,7 +1495,7 @@ function view_item1I() {
         /*background properties end*/
 
         /*margin properties start*/
-        let _margin_1I_AutoCustom = "10px auto 10px auto";
+        let _margin_1I_AutoCustom = "auto auto 10px auto";
         /*margin end*/
 
         /*display properties start*/
@@ -1678,7 +1678,7 @@ function view_item1J() {
         /*background properties end*/
 
         /*margin properties start*/
-        let _margin_1J_allAuto = "10px auto 10px auto";
+        let _margin_1J_allAuto = "auto auto 10px auto";
         /*margin end*/
 
         /*display properties start*/
@@ -1841,9 +1841,6 @@ function view_item2J() {
 }
 function view_item1K() {
     try {
-        document.getElementById("btn21").style.display = "none";
-        document.getElementById("btn22").style.margin = "auto auto auto auto";
-        document.getElementById("btn22").style.display = "block";
         /*fonts properties start*/
         let _font_size_1K = "14pt ";
         let _text_align_1K = "center";
@@ -1854,7 +1851,7 @@ function view_item1K() {
         /*background properties end*/
 
         /*margin properties start*/
-        let _margin_1K_AutoCustom = "10px auto 10px auto";
+        let _margin_1K_AutoCustom = "auto auto 10px auto";
         /*margin end*/
 
         /*display properties start*/
@@ -2068,7 +2065,7 @@ function view_item1L() {
         /*background properties end*/
 
         /*margin properties start*/
-        let _margin_1L_allAuto = "10px auto 10px auto";
+        let _margin_1L_allAuto = "auto auto 10px auto";
         /*margin end*/
 
         /*display properties start*/
@@ -2264,7 +2261,7 @@ function view_item1M() {
         /*background properties end*/
 
         /*margin properties start*/
-        let _margin_1M_AutoCustom = "10px auto 10px auto";
+        let _margin_1M_AutoCustom = "auto auto 10px auto";
         /*margin end*/
 
         /*display properties start*/
@@ -2459,7 +2456,7 @@ function view_item1N() {
         /*background properties end*/
 
         /*margin properties start*/
-        let _margin_1N_AutoCustom = "10px auto 10px auto";
+        let _margin_1N_AutoCustom = "auto auto 10px auto";
         /*margin end*/
 
         /*display properties start*/
@@ -2619,7 +2616,7 @@ function view_item1O() {
         /*background properties end*/
 
         /*margin properties start*/
-        let _margin_1_O_AutoCustom = "10px auto 10px auto";
+        let _margin_1_O_AutoCustom = "auto auto 10px auto";
         /*margin end*/
 
         /*display properties start*/
@@ -2826,7 +2823,7 @@ function view_item1P() {
         /*background properties end*/
 
         /*margin properties start*/
-        let _margin_1P_AutoCustom = "10px auto 10px auto";
+        let _margin_1P_AutoCustom = "auto auto 10px auto";
         /*margin end*/
 
         /*display properties start*/
