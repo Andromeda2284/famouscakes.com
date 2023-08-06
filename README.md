@@ -1,5 +1,5 @@
 Hello my name is Christopher. 
-I am a junior fornt-end software developer.
+I am a junior front-end software developer.
 
 #famouscakes.com
 Web app blog about the different types of cake, its recipes and how to make them. 
